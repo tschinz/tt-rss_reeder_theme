@@ -3,8 +3,7 @@ Tiny Tiny RSS Reeder Theme
 Author: zas
 Email: zaswiki@gmail.com
 */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,400,600,700,800);
 /************************************************************
 * Global Settings
 */
@@ -29,6 +28,7 @@ div.postTitle a{
 .dijitTree {
   background-color: #aba99d;
 	background-image: url(reeder_img/reeder_bg_dark.png);
+	background-image: url(reeder_img/reeder_stripes.png), url(reeder_img/reeder_bg_dark.png);
   color: #aba99d;
 }
 #ttrssMain .dijitTreeExpando {
@@ -51,7 +51,7 @@ div.postTitle a{
 #ttrssMain .dijitTreeNode .dojoDndItemBefore,
 #ttrssMain .dijitTreeNode .dojoDndItemAfter {
   background-color: #aba99d;
-	background-image: url(reeder_img/reeder_bg_dark.png);
+	background-image: url(reeder_img/reeder_stripes.png), url(reeder_img/reeder_bg_dark.png);
 	color: #4f4e48;
   display: block;
   font-size: 12px;
@@ -62,12 +62,12 @@ div.postTitle a{
 #ttrssMain .dijitTreeNode .dojoDndItemBeforeHover,
 #ttrssMain .dijitTreeNode .dojoDndItemAfterHover {
   background-color: #aba99d;
-	background-image: url(reeder_img/reeder_bg_darker.png);
+	background-image: url(reeder_img/reeder_stripes.png), url(reeder_img/reeder_bg_darker.png);
 	color: #4f4e48;
 }
 #ttrssMain .dijitTreeRowSelected {
   background-color: #aba99d;
-	background-image: url(reeder_img/reeder_bg_darker.png);
+	background-image: url(reeder_img/reeder_stripes.png), url(reeder_img/reeder_bg_darker.png);
   color: #4f4e48;
 }
 #ttrssMain .dijitTreeLabel {
@@ -76,8 +76,7 @@ div.postTitle a{
 }
 #ttrssMain .dijitTreeIsRoot > .dijitTreeRow {
   background-color: #bebcbo;
-  border-bottom: 1px solid #cecece !important;
-  border-top: 1px solid #fdfdfd !important;
+  border-top: 1px solid #bebcb0 !important;
   color: #4f4e48;
   display: block;
   font-size: 14px;
@@ -86,7 +85,7 @@ div.postTitle a{
 }
 #ttrssMain .dijitTreeIsRoot > .dijitTreeRowHover {
   background.color: #aba99d;
-	background-image: url(reeder_img/reeder_bg_darker.png);
+	background-image: url(reeder_img/reeder_stripes.png), url(reeder_img/reeder_bg_darker.png);
 	color: #4f4e48;
 }
 #ttrssMain .dijitSplitterV,
@@ -100,10 +99,19 @@ div.postTitle a{
 #ttrssMain div#headlines-toolbar,
 #ttrssMain .dijitToolbar {
   background: #e9e6d7;
+	background-image: url(reeder_img/reeder_bg_bright.png);
   color: #4f4e48;
-  border: 0 !important;
-	bottom: 0;
+	border: none;
   padding: 6px 0 2px 4px;
+}
+
+#ttrssMain div#headlines-toolbar {
+	border-bottom: 1px solid #bebcb0;
+}
+
+#ttrssMain div#headlines-wrap-inner,
+div#headlines-frame {
+  background-image: url(reeder_img/reeder_bg_bright.png);
 }
 #ttrssMain div#headlines-toolbar a,
 #ttrssMain .dijitToolbar a {
@@ -231,7 +239,6 @@ div.postTitle a{
 }
 #feeds-holder,
 #content-wrap {
-  /*border-color: #00ff00;*/
   border-width: 0;
 }
 
@@ -263,11 +270,23 @@ div.postReply a:hover {
 
 div.cdm.expandable,
 div.cdm.expanded,
+div.cdm.expanded.Unread,
+div.cdm.expandable.Unread {
+  background: #e9e6d7;
+	background-image: url(reeder_img/reeder_bg_dark.png);
+	border: 1px solid #bebcb0;
+	border-top: 1px solid #bebcb0;
+	position:relative;
+	margin-top: -1px;
+}
+
+/*div.cdm.expandable,*/
+div.cdm.expandable.Selected.active,
 div.cdm.active,
 div.hl.active.Selected,
 div.postReply {
 	background: #e9e6d7;
-	background-image: url(reeder_img/reeder_bg_bright.png);
+	background-image: url(reeder_img/reeder_bg_dark.png);
   border: 1px solid #bebcb0;
   border-radius: 10px;
   -moz-border-radius: 10px;
@@ -276,9 +295,8 @@ div.postReply {
   position: relative;
 }
 
-div.cdm.expandable.Selected.active,
 div.hl.active.Selected,
-div.cdmexpanded.Selected.active,
+div.cdm.expanded.Selected.active,
 div.content-insert{
 	border: 1px solid #bebcb0;
   /*
@@ -294,12 +312,18 @@ div.postTitle {
 	padding-top: 20px;
 }
 
+div.cdmHeader {
+  background-image: url(reeder_img/reeder_bg_dark.png);
+}
+
 div.cdmContent {
+	background-image: url(reeder_img/reeder_bg_dark.png);
 	padding: 10px;
 }
 
 div.cdmFooter {
 	font-size: 12px !important;
+	background-image: url(reeder_img/reeder_bg_dark.png);
 	padding:10px;
 }
 
@@ -368,6 +392,10 @@ img[src*="images/indicator_tiny.gif"] {
 	background-image: url(reeder_img/linen_bg.png);
   color: #4f4e48;
 }
+div.insensitive{
+  color: #4f4e48;
+
+}
 #overlay_inner {
   position: absolute;
   top: 50%;
@@ -375,8 +403,8 @@ img[src*="images/indicator_tiny.gif"] {
   margin-top: -50px;
   margin-left: -220px;
   text-align: center;
-  background-color: #aba990;
-	background-image: url(reeder_img/reeder_bg_dark.png);
+  background-color: #e9e6d7;
+	background-image: url(reeder_img/reeder_stripes.png); url(reeder_img/reeder_bg_dark.png);
 	-moz-box-shadow:    0px 0px 30px 0px #636260;
   -webkit-box-shadow: 0px 0px 30px 0px #636260;
   box-shadow:         0px 0px 30px 0px #636260;
@@ -390,8 +418,6 @@ img[src*="images/indicator_tiny.gif"] {
 }
 #overlay_inner .dijitProgressBarEmpty {
   border: 0;
-  background-color: #aba99d;
-  border-radius: 4px;
 }
 #overlay_inner .dijitProgressBarTile {
   border-radius: 3px;
