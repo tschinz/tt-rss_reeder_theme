@@ -1,7 +1,7 @@
 [TinyTinyRSS Reeder Theme](http://zawiki.dyndns.org/doku.php/tschinz:tt-rss_reeder)
 ================================
 
-This is an attempt to simulate the Reeder feeling in the TinyTinyRSS Reader.yangsu/sublime-vhdl) for Sublime Text 2
+This is an attempt to simulate the Reeder feeling in the TinyTinyRSS Reader.
 
 ---
 
