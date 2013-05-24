@@ -8,7 +8,7 @@ This is an attempt to simulate the Reeder feeling in the TinyTinyRSS Reader.yang
 Installation
 ---
 
-Copy the folder into your tt-rss/themes directory.
+Copy the folder `reeder_img/` and the file `reeder.css` into your `tt-rss/themes/` directory.
 
 TT-RSS Settings
 ---
