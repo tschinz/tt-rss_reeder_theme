@@ -285,8 +285,10 @@ div.cdm.expandable.Selected.active,
 div.cdm.active,
 div.hl.active.Selected,
 div.postReply {
-	background: #e9e6d7;
 	background-image: url(reeder_img/reeder_bg_dark.png);
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
   border: 1px solid #bebcb0;
   border-radius: 10px;
   -moz-border-radius: 10px;
@@ -349,6 +351,38 @@ img[src*="images/tag.png"] {
 	padding-right: 24px;
 	width: 0 !important;
 	display: inline-block;
+}
+
+img[src*="images/pub_set.svg"] {
+  background: transparent url(reeder_img/rss.png) !important;
+	height: 24px !important;
+	padding-right: 24px;
+	width: 0 !important;
+	display: inline-block;
+}
+
+img[src*="images/recently_read.png"] {
+  background: transparent url(reeder_img/watch.png) !important;
+  height: 24px !important;
+  padding-right: 24px;
+  width: 0 !important;
+  display: inline-block;
+}
+
+img[src*="images/fresh.png"] {
+  background: transparent url(reeder_img/flash.png) !important;
+  height: 24px !important;
+  padding-right: 24px;
+  width: 0 !important;
+  display: inline-block;
+ }
+
+ img[src*="images/archive.png"] {
+  background: transparent url(reeder_img/lock.png) !important;
+  height: 24px !important;
+  padding-right: 24px;
+  width: 0 !important;
+  display: inline-block;
 }
 
 img[src*="images/mark_set.svg"] {
