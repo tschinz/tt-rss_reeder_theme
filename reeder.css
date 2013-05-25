@@ -369,6 +369,15 @@ div#headlines-frame .hlScorePic {
 }
 
 /* Replace images */
+ img[src*="plugins/note/note.png"] {
+  background: transparent url(reeder_img/note.png) 50% !important;
+  height: 24px !important;
+  padding-right: 24px;
+  width: 0 !important;
+  display: inline-block;
+}
+
+
 img[src*="images/tag.png"] {
   background: transparent url(reeder_img/tag.png) !important;
 	height: 24px !important;
@@ -438,6 +447,50 @@ img[src*="images/indicator_tiny.gif"] {
   background: transparent url(reeder_img/loader-bars.gif) 50% 100% no-repeat !important;
   height: 11px !important;
   padding-right: 16px;
+  width: 0 !important;
+  display: inline-block;
+}
+
+ /* Replace plugin images */
+img[src*="plugins/mail/mail.png"] {
+  background: transparent url(reeder_img/mail.png) no-repeat !important;
+	height: 24px !important;
+  padding-right: 24px;
+  width: 0 !important;
+  display: inline-block;
+}
+
+img[src*="plugins/share/share.png"] {
+	background: transparent url(reeder_img/share.png) no-repeat !important;
+	height: 24px !important;
+	padding-right: 24px;
+	width: 0 !important;
+  display: inline-block;
+}
+img[src*="plugins/embed_original/button.png"] {
+ background: transparent url(reeder_img/embed.png) no-repeat !important;
+ height: 24px !important;
+ padding-right: 24px;
+ width: 0 !important;
+ display: inline-block;
+}
+
+
+img[src*="plugins/inline_readability/readability.png"],
+img[src*="plugins/readability/readability.png"],
+img[src*="plugins/readability_mobile/readability_mobile.png"]
+{
+  background: transparent url(reeder_img/readability.png) no-repeat !important;
+  height: 24px !important;
+  padding-right: 24px;
+  width: 0 !important;
+  display: inline-block;
+}
+
+img[src*="plugins/evernote/evernote.png"] {
+  background: transparent url(reeder_img/evernote.png) no-repeat !important;
+  height: 24px !important;
+  padding-right: 24px;
   width: 0 !important;
   display: inline-block;
 }
