@@ -7,14 +7,17 @@ This is an attempt to simulate the Reeder feeling in the TinyTinyRSS Reader.
 
 Screenshots
 ---
-Loading screen
-![Reeder Theme Screennshot 2](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot2.png?raw=true)
+**Loading screen**
 
-Combined Feed Display Enabled
-![Reeder Theme Screennshot 1](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot1.png?raw=true)
+![Reeder Theme Loading](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot2.png?raw=true)
 
-Widescreen mode and Combined Feed Display Diabled
-![Reeder Theme Screennshot 3](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot3.png?raw=true)
+**Combined Feed Display Enabled**
+
+![Reeder Theme Combined Feeds](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot1.png?raw=true)
+
+**Widescreen mode and Combined Feed Display Disabled**
+
+![Reeder Theme Widescreen](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot3.png?raw=true)
 
 Installation
 ---
