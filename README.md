@@ -3,26 +3,22 @@
 
 This is an attempt to simulate the Reeder feeling in the TinyTinyRSS Reader.
 
-![Reeder Theme Screennshot 1](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot1.png?raw=true)
+---
+
+Screenshots
+---
+Loading screen
 ![Reeder Theme Screennshot 2](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot2.png?raw=true)
 
+Combined Feed Display Enabled
+![Reeder Theme Screennshot 1](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot1.png?raw=true)
 
----
+Widescreen mode and Combined Feed Display Diabled
+![Reeder Theme Screennshot 3](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot3.png?raw=true)
 
 Installation
 ---
-
 Copy the folder `reeder_img/` and the file `reeder.css` into your `tt-rss/themes/` directory.
-
-TT-RSS Settings
----
-This theme works best with the following settings:
-- [_] - Automatically mark articles as read
-- [_] - Automatically expand articles in combined mode
-- [X] - Combined feed display
-- [X] - Enable feed categories
-- [_] - Show content preview in headlines list	
-- [_] - Group headlines in virtual feeds
 
 Licensing
 ---

@@ -97,7 +97,6 @@ div.postTitle a{
   background: #bebcb0;
 }
 
-#ttrssMain div#headlines-toolbar,
 #ttrssMain .dijitToolbar {
   background: #e9e6d7;
 	background-image: url(reeder_img/reeder_bg_bright.png);
@@ -106,8 +105,11 @@ div.postTitle a{
   padding: 6px 0 2px 4px;
 }
 
-#ttrssMain div#headlines-toolbar {
-	border-bottom: 1px solid #bebcb0;
+div#headlines-toolbar,
+{
+	color: #00ff00;
+	background-image: url(reeder_img/reeder_bg_bright.png);
+ 	border-bottom: 1px solid #bebcb0 !important;
 }
 
 #ttrssMain div#headlines-wrap-inner,
@@ -273,7 +275,8 @@ div.postReply a:hover {
 div.cdm.expandable,
 div.cdm.expanded,
 div.cdm.expanded.Unread,
-div.cdm.expandable.Unread {
+div.cdm.expandable.Unread,
+div#headlines-frame .hl {
   background: #e9e6d7;
 	background-image: url(reeder_img/reeder_bg_dark.png);
 	border: 1px solid #bebcb0;
@@ -282,24 +285,22 @@ div.cdm.expandable.Unread {
 	margin-top: -1px;
 }
 
-/*div.cdm.expandable,*/
 div.cdm.expandable.Selected.active,
-div.cdm.active,
-div.hl.active.Selected,
-div.postReply {
+div.cdm.active {
 	background-image: url(reeder_img/reeder_bg_dark.png);
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
   border: 1px solid #bebcb0;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
   margin: 6px;
   position: relative;
 }
 
-div.hl.active.Selected,
+div#headlines-frame .hl {
+  background-image: url(reeder_img/reeder_bg_dark.png);
+	border: 1px solid #bebcb0;
+}
+
 div.cdm.expanded.Selected.active,
 div.content-insert{
 	border: 1px solid #bebcb0;
@@ -311,16 +312,12 @@ div.content-insert{
 	*/
 }
 
-div.postTitle {
-  margin: 10px;
-	padding-top: 20px;
-}
-
+div#headlines-frame .hl,
 div.cdmHeader {
   background-image: url(reeder_img/reeder_bg_dark.png);
 }
 
-div.cdmContent {
+div.cdmContent{
 	background-image: url(reeder_img/reeder_bg_dark.png);
 	padding: 10px;
 }
@@ -331,18 +328,43 @@ div.cdmFooter {
 	padding:10px;
 }
 
-/* Remove function I don't want */
-div.cdmHeader .dijitCheckBox {
+div.hl.marked.active.Selected,
+div.hl.active.Selected {
+  background-image: url(reeder_img/reeder_bg_darker.png) !important;
+}
+
+div.postTitle {
+  margin: 10px;
+  padding-top: 20px;
+}
+
+div.postHeader {
+  background-image: url(reeder_img/reeder_bg_dark.png) !important;
+  border-top: 1px solid #bebcb0 !important;
+}
+div.postContent,
+div.dijitContentPane{
+  background-image: url(reeder_img/reeder_bg_bright.png);
+}
+
+
+/* Remove functions I don't want */
+div.cdmHeader .dijitCheckBox, 
+div#headlines-frame .dijitCheckBox
+{
 	width: 0 !important;
 }
 
-div.cdmHeader img[src*="images/pub_unset.svg"] {
+div.cdmHeader img[src*="images/pub_unset.svg"],
+div#headlines-frame img[src*="images/pub_unset.svg"] {
   width: 0 !important;
 }
-div.cdmHeader img[src*="images/pub_set.svg"] {
+div.cdmHeader img[src*="images/pub_set.svg"],
+div#headlines-frame img[src*="images/pub_set.svg"] {
 	width: 0 !important;
 }
-div.cdmHeader .hlScorePic {
+div.cdmHeader .hlScorePic,
+div#headlines-frame .hlScorePic {
 	width: 0 !important;
 }
 
