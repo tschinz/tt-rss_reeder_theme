@@ -447,7 +447,9 @@ img[src*="images/indicator_tiny.gif"] {
 */
 #overlay {
   background: #e9e6d7;
-	background-image: url(reeder_img/linen_bg.png);
+	background-image: url(reeder_img/tt-rss_logo.png), url(reeder_img/linen_bg.png);
+	background-repeat: no-repeat, repeat;
+  background-position: center 10%;
   color: #4f4e48;
 }
 div.insensitive{
@@ -458,14 +460,13 @@ div.insensitive{
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -50px;
   margin-left: -220px;
   text-align: center;
   background-color: #e9e6d7;
 	background-image: url(reeder_img/reeder_stripes.png); url(reeder_img/reeder_bg_dark.png);
-	-moz-box-shadow:    0px 0px 30px 0px #636260;
-  -webkit-box-shadow: 0px 0px 30px 0px #636260;
-  box-shadow:         0px 0px 30px 0px #636260;
+	-moz-box-shadow:    0px 0px 30px 0px #000000;
+  -webkit-box-shadow: 0px 0px 30px 0px #000000;
+  box-shadow:         0px 0px 30px 0px #000000;
   border-radius: 10px;
   padding: 20px;
   width: 400px;
