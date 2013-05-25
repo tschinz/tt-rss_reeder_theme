@@ -3,6 +3,10 @@
 
 This is an attempt to simulate the Reeder feeling in the TinyTinyRSS Reader.
 
+![Reeder Theme Screennshot 1](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot1.png?raw=true)
+![Reeder Theme Screennshot 2](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot2.png?raw=true)
+
+
 ---
 
 Installation
