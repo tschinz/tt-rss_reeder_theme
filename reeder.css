@@ -4,6 +4,7 @@ Author: zas
 Email: zaswiki@gmail.com
 */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,400,600,700,800);
+@import "default.css";
 /************************************************************
 * Global Settings
 */
@@ -225,7 +226,8 @@ div#headlines-frame {
   border: 0 !important;
   padding: 5px 6px !important;
 }
-#feedTree .counterNode {
+#feedTree .counterNode,
+#feedTree .counterNode.aux {
   background-color: #d2d0c4;
 	color: #4f4e48;
 	border-color: #bebcb0;
