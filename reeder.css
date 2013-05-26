@@ -32,6 +32,7 @@ div.postTitle a{
 	background-image: url(reeder_img/reeder_stripes.png), url(reeder_img/reeder_bg_dark.png);
   color: #aba99d;
 }
+
 #ttrssMain .dijitTreeExpando {
   background-image: url(reeder_img/tree-expand.png);
 	position: relative;
@@ -334,8 +335,12 @@ div.hl.active.Selected {
 }
 
 div.postTitle {
-  margin: 10px;
-  padding-top: 20px;
+  margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: 35px;
+	overflow: visible !important;
+	white-space: normal !important;
 }
 
 div.postHeader {
