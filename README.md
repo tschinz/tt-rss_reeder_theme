@@ -19,6 +19,21 @@ Screenshots
 
 ![Reeder Theme Widescreen](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot3.png?raw=true)
 
+**New plugin icons**
+![Reeder Theme Plugin icons](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot4.png?raw=true)
+
+it includes icons for the following plugins:
+- evernote
+- readability
+- readability_mobile
+- inline_readability
+- mail
+- mail_to
+- share
+- embed_original
+- note
+
+
 Installation
 ---
 Copy the folder `reeder_img/` and the file `reeder.css` into your `tt-rss/themes/` directory.
