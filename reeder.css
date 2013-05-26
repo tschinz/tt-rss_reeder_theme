@@ -374,7 +374,16 @@ div#headlines-frame .hlScorePic {
 }
 
 /* Replace images */
- img[src*="plugins/note/note.png"] {
+
+img[src*="plugins/mobilize/but.png"] {
+  background: transparent url(reeder_img/mobilize.png) !important;
+  height: 24px !important;
+  padding-right: 24px;
+  width: 0 !important;
+  display: inline-block;
+}
+
+img[src*="plugins/note/note.png"] {
   background: transparent url(reeder_img/note.png) 50% !important;
   height: 24px !important;
   padding-right: 24px;
