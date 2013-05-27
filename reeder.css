@@ -11,9 +11,12 @@ Email: zaswiki@gmail.com
 {
   font-family: 'Open Sans',sans-serif !important;
 }
-body {
+
+/*body,*/
+div.hl.Content {
   font-size: 16px !important;
 }
+
 div.cdmContentInner p {
   max-width: 100% !important;
 }
@@ -21,6 +24,11 @@ div.cdm.expanded div.cdmHeader a.title,
 div.cdm.active div.cdmHeader a.title,
 div.postTitle a{
   font-size: 32px !important;
+}
+
+span.hlContent {
+  font-size: 12px !important;
+  margin-right: -20px;
 }
 
 /************************************************************
@@ -77,7 +85,7 @@ div.postTitle a{
   margin: 0 8px;
 }
 #ttrssMain .dijitTreeIsRoot > .dijitTreeRow {
-  background-color: #bebcbo;
+  background-color: #bebcb0;
   border-top: 1px solid #bebcb0 !important;
   color: #4f4e48;
   display: block;
@@ -108,7 +116,6 @@ div.postTitle a{
 
 div#headlines-toolbar,
 {
-	color: #00ff00;
 	background-image: url(reeder_img/reeder_bg_bright.png);
  	border-bottom: 1px solid #bebcb0 !important;
 }
@@ -264,7 +271,9 @@ div.cdm.expanded a,
 div.hl.active.Selected a,
 div.postReply a {
   color: #5a6c83 !important;
+	text-shadow: none !important;
 }
+
 div.cdm.expandable.Selected.active a:hover,
 div.cdm.active a:hover,
 div.cdm.expanded a:hover,
@@ -330,7 +339,9 @@ div.cdmFooter {
 }
 
 div.hl.marked.active.Selected,
-div.hl.active.Selected {
+div.hl.active.Selected,
+div.hl:hover,
+div.cdmHeader:hover {
   background-image: url(reeder_img/reeder_bg_darker.png) !important;
 }
 
@@ -516,7 +527,7 @@ img[src*="plugins/evernote/evernote.png"] {
   background: #e9e6d7;
 	background-image: url(reeder_img/tt-rss_logo.png), url(reeder_img/linen_bg.png);
 	background-repeat: no-repeat, repeat;
-  background-position: center 10%;
+  background-position: center 5%;
   color: #4f4e48;
 }
 div.insensitive{
