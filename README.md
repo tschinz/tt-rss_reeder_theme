@@ -33,6 +33,9 @@ it includes icons for the following plugins (plugin folders needs to be saved as
 - embed_original
 - note
 - mobilize
+- facebook
+- tweet
+- googleplus
 
 
 Installation
