@@ -304,9 +304,11 @@ div#headlines-frame .hl {
 div.cdm.expandable.Selected.active,
 div.cdm.active {
   background-image: url(reeder_img/reeder_bg_dark.png);
+  /*
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
+  */
   border: 1px solid #bebcb0;
   margin: 6px;
   position: relative;
@@ -331,6 +333,10 @@ div.content-insert{
 div#headlines-frame .hl,
 div.cdmHeader {
   background-image: url(reeder_img/reeder_bg_dark.png);
+}
+
+span.titleWrap {
+  white-space: normal !important;
 }
 
 div.cdmContent{
