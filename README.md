@@ -36,7 +36,19 @@ it includes icons for the following plugins (plugin folders needs to be saved as
 - facebook
 - tweet
 - googleplus
+- article_toolbar
+- article_toolbar_small
 
+Versions Log
+---
+v1.0 - Initial Release
+v1.1 - Better colors
+v1.2 - New images in Special list
+v1.3 - Update for tt-rss v1.7.10
+v1.4 - Supports Widescreen and Disabled Combined Feeds
+v1.5 - New images for certain plugins, supported plugins are note, embed_original, evernote, share, readability, readability_mobile, inline_readability, mail, mail_to, mobilize
+v1.6 - New images for facebook, twitter and googleplus plugins, better OpenSans font integration, minor bugfixes
+v1.7 - Added style for the article_toolbar and article_toolbar_small plugins, minor bugfixes
 
 Installation
 ---
