@@ -49,6 +49,7 @@ Versions Log
 - v1.5 - New images for certain plugins, supported plugins are note, embed_original, evernote, share, - readability, readability_mobile, inline_readability, mail, mail_to, mobilize
 - v1.6 - New images for facebook, twitter and googleplus plugins, better OpenSans font integration, minor bugfixes
 - v1.7 - Added style for the article_toolbar and article_toolbar_small plugins, minor bugfixes
+- v1.8 - New Toolbar style and Feed title
 
 Installation
 ---

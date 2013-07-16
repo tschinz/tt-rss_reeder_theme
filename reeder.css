@@ -128,19 +128,44 @@ span.hlContent {
 */
 #ttrssMain .dijitToolbar {
   background: #e9e6d7;
-  background-image: url(reeder_img/reeder_bg_bright.png);
+  background-image: url(reeder_img/reeder_stripes.png), url(reeder_img/reeder_bg_dark.png);
   color: #4f4e48;
-  border: none;
-  padding: 6px 0 2px 4px;
+  border-bottom: 1px solid #bebcb0 !important;
+  padding: 6px 10px 6px 10px !important;
+  margin: 0 20px 0 20px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
 }
 
-div#headlines-toolbar,
-{
+div#headlines-toolbar {
+  font-family: 'Open Sans',sans-serif !important;
   background-image: url(reeder_img/reeder_bg_bright.png);
   border-bottom: 1px solid #bebcb0 !important;
-	-moz-box-shadow:    10px 13px 15px 16px #636260 !important;
-	-webkit-box-shadow: 10px 13px 15px 16px #636260 !important;
-	box-shadow:         10px 13px 15px 16px #636260 !important;
+	height: 40px !important;
+  text-align: right;
+	padding-top: 15px !important;
+}
+
+#headlines-toolbar span.r {
+  float: left !important;
+}
+
+#headlines-toolbar span#feed_title {
+	font-size: 24px !important;
+	padding-left: 15px;
+	vertical-align: bottom;
+}
+
+#headlines-toolbar span.r a {
+  padding-left: 5px;
+}
+
+#headlines-toolbar span#selected_prompt {
+	display: none;
 }
 
 #ttrssMain div#headlines-wrap-inner,
@@ -192,7 +217,7 @@ div#headlines-frame {
 #ttrssMain .dijitTextBox,
 #ttrssMain .dijitTextBox .dijitButtonNode {
   color: #4f4e48;
-  background: #d2d0c4;
+  background: transparent; /*#d2d0c4;*/
   border: 0 !important;
   border-color: #bebcb0;
   border-radius: 3px !important;
@@ -201,11 +226,13 @@ div#headlines-frame {
 #ttrssMain .dijitButtonHover .dijitButtonNode,
 #ttrssMain .dijitDropDownButtonHover .dijitButtonNode,
 #ttrssMain .dijitToggleButtonHover .dijitButtonNode,
-#ttrssMain .dijitComboButtonHover .dijitButtonNode {
+#ttrssMain .dijitComboButtonHover .dijitButtonNode,
+#ttrssMain .dijitButtonContentsHover {
   border: 0 !important;
   border-color: #bebcb0;
   border-radius: 3px !important;
-  background: #bebcb0 !important;
+  /*background: #bebcb0 !important;*/
+  background: url(reeder_img/reeder_bg_darker.png) !important; /*#aba99d !important;*/
 }
 
 #ttrssMain .dijitSelect,
@@ -220,13 +247,13 @@ div#headlines-frame {
   padding: 0 !important;
 }
 #ttrssMain .dijitSelectHover .dijitArrowButton {
-  background: #aba99d !important;
+  background: url(reeder_img/reeder_bg_darker.png) !important; /*#aba99d !important;*/
   border: 0 !important;
 }
 #ttrssMain .dijitSelect .dijitArrowButtonInner,
 #ttrssMain .dijitComboBox .dijitArrowButtonInner,
 #ttrssMain .dijitArrowButtonInner {
-  background: url(reeder_img/triangle_full_down.png) 50% 10%;
+  background: url(reeder_img/triangle_full_down.png) 50% 100%;
 }
 #ttrssMain .dijitSelectHover .dijitArrowButtonInner,
 #ttrssMain .dijitComboBoxHover .dijitArrowButtonInner,
@@ -236,6 +263,7 @@ div#headlines-frame {
 
 #ttrssMain .dijitMenu {
   background: #aba99d;
+  background: url(reeder_img/reeder_bg_darker.png) !important; /*#aba99d !important;*/
   border: 1px;
   border-color: #bebcb0;
 }
