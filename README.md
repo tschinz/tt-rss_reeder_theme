@@ -50,6 +50,7 @@ Versions Log
 - v1.6 - New images for facebook, twitter and googleplus plugins, better OpenSans font integration, minor bugfixes
 - v1.7 - Added style for the article_toolbar and article_toolbar_small plugins, minor bugfixes
 - v1.8 - New Toolbar style and Feed title
+- v1.9 - Version in sync with ttrss ;-), supports TTRSS v1.9, updated some images, supports floating title, supports share notshared plugin functionality
 
 Installation
 ---

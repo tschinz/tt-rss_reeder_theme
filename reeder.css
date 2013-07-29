@@ -80,7 +80,6 @@ span.hlContent {
   color: #4f4e48;
 }
 #ttrssMain .dijitTreeLabel {
-  vertical-align: text-top;
   margin: 0 8px;
 }
 #ttrssMain .dijitTreeIsRoot > .dijitTreeRow {
@@ -117,6 +116,7 @@ span.hlContent {
   top: 3px;
   min-width: 0;
   border-radius: 3px;
+	margin-top: 0px;
 }
 #feeds-holder,
 #content-wrap {
@@ -361,8 +361,13 @@ div.content-insert{
 }
 
 div#headlines-frame .hl,
-div.cdmHeader {
+div.cdmHeader,
+div#floatingTitle { /* TTRSS > v1.9 */
   background-image: url(reeder_img/reeder_bg_dark.png);
+}
+
+div#floatingTitle { /* TTRSS > v1.9 */
+  margin-top: 30px;
 }
 
 span.titleWrap {
@@ -383,7 +388,8 @@ div.cdmFooter {
 div.hl.marked.active.Selected,
 div.hl.active.Selected,
 div.hl:hover,
-div.cdmHeader:hover {
+div.cdmHeader:hover,
+div#floatingTitle:hover { /* TTRSS > v1.9 */
   background-image: url(reeder_img/reeder_bg_darker.png) !important;
 }
 
@@ -401,28 +407,40 @@ div.postHeader {
   border-top: 1px solid #bebcb0 !important;
 }
 div.postContent,
-div.dijitContentPane{
+
+div.dijitContentPane {
   background-image: url(reeder_img/reeder_bg_bright.png);
 }
 
 
 /* Remove functions I don't want */
-div.cdmHeader .dijitCheckBox, 
-div#headlines-frame .dijitCheckBox
-{
+div.cdmHeader .dijitCheckBox,
+div#floatingTitle .dijitCheckBox,
+div#headlines-frame .dijitCheckBox {
   width: 0 !important;
 }
 
-div.cdmHeader img[src*="images/pub_unset.svg"],
-div#headlines-frame img[src*="images/pub_unset.svg"] {
+div.cdmHeader img[src*="images/pub_unset.svg"],        /*TTRSS < v1.9 */
+div#headlines-frame img[src*="images/pub_unset.svg"],  /*TTRSS < v1.9 */
+div.cdmHeader img[src*="images/pub_unset.png"],        /*TTRSS > v1.9 */
+div#headlines-frame img[src*="images/pub_unset.png"],  /*TTRSS > v1.9 */
+div#floatingTitle img[src*="images/pub_unset.png"] {   /*TTRSS > v1.9 */
   width: 0 !important;
 }
-div.cdmHeader img[src*="images/pub_set.svg"],
-div#headlines-frame img[src*="images/pub_set.svg"] {
+div.cdmHeader img[src*="images/pub_set.svg"],          /*TTRSS < v1.9 */
+div#headlines-frame img[src*="images/pub_set.svg"],    /*TTRSS < v1.9 */
+div.cdmHeader img[src*="images/pub_set.png"],          /*TTRSS > v1.9 */
+div#headlines-frame img[src*="images/pub_set.png"],    /*TTRSS > v1.9 */
+div#floatingTitle img[src*="images/pub_set.png"] {     /*TTRSS > v1.9 */
   width: 0 !important;
 }
 div.cdmHeader .hlScorePic,
+div#floatingTitle .hlScorePic,
 div#headlines-frame .hlScorePic {
+  width: 0 !important;
+}
+
+div#floatingTitle .anchor.markedPic { /* TTRSS > v1.9 */
   width: 0 !important;
 }
 
@@ -435,7 +453,17 @@ img[src*="images/tag.png"] {
   display: inline-block;
 }
 
-img[src*="images/pub_set.svg"] {
+img[src*="images/folder.png"] {       /* TTRSS > v1.9 */
+  background: transparent url(reeder_img/list.png) !important;
+  height: 24px !important;
+  padding-right: 24px;
+  width: 0 !important;
+  display: inline-block;
+}
+
+img[src*="images/pub_set.svg"],       /* TTRSS < v1.9 */
+img[src*="images/pub_set.png"],       /* TTRSS > v1.9 */
+img[src*="images/feed.png"] {         /* TTRSS > v1.9 */
   background: transparent url(reeder_img/rss.png) !important;
   height: 24px !important;
   padding-right: 24px;
@@ -443,7 +471,8 @@ img[src*="images/pub_set.svg"] {
   display: inline-block;
 }
 
-img[src*="images/recently_read.png"] {
+img[src*="images/recently_read.png"], /* TTRSS < v1.9 */
+img[src*="images/time.png"] {         /* TTRSS > v1.9 */
   background: transparent url(reeder_img/watch.png) !important;
   height: 24px !important;
   padding-right: 24px;
@@ -467,7 +496,9 @@ img[src*="images/fresh.png"] {
   display: inline-block;
 }
 
-img[src*="images/mark_set.svg"] {
+img[src*="images/mark_set.svg"],    /* TTRSS < v1.9 */
+img[src*="images/mark_set.png"],    /* TTRSS > v1.9 */
+img[src*="images/star.png"] {       /* TTRSS > v1.9 */
   background: transparent url(reeder_img/star_full.png) !important;
   height: 24px !important;
   padding-right: 24px;
@@ -475,7 +506,8 @@ img[src*="images/mark_set.svg"] {
   display: inline-block;
 }
 
-img[src*="images/mark_unset.svg"] {
+img[src*="images/mark_unset.svg"],  /* TTRSS < v1.9 */
+img[src*="images/mark_unset.png"] { /* TTRSS > v1.9 */
   background: transparent url(reeder_img/star.png) no-repeat !important;
   height: 24px !important;
   padding-right: 24px;
@@ -525,13 +557,23 @@ img[src*="plugins/note/note.png"] {
   display: inline-block;
 }
 
-img[src*="plugins/share/share.png"] {
+img[src*="plugins/share/share.png"] { 
   background: transparent url(reeder_img/share.png) no-repeat !important;
   height: 24px !important;
   padding-right: 24px;
   width: 0 !important;
   display: inline-block;
 }
+
+img[src*="plugins/share/notshared.png"] {   /* TTRSS >v1.9 */
+  background: transparent url(reeder_img/notshared.png) no-repeat !important;
+  height: 24px !important;
+  padding-right: 24px;
+  width: 0 !important;
+  display: inline-block;
+}
+
+
 img[src*="plugins/embed_original/button.png"] {
  background: transparent url(reeder_img/embed.png) no-repeat !important;
  height: 24px !important;
