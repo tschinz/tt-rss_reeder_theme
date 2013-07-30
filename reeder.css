@@ -191,7 +191,7 @@ div#headlines-frame {
 }
 
 /* Toolbar buttons */
-#ttrssMain div.actionChooser{
+#ttrssMain div#main-toolbar div.actionChooser{
   background-image: transparent url(reeder_img/settings.png) no-repeat !important;
 }
 
@@ -208,14 +208,22 @@ div#headlines-frame {
   vertical-align: middle;
 }
 
-#ttrssMain .dijitButton .dijitButtonNode,
-#ttrssMain .dijitDropDownButton .dijitButtonNode,
-#ttrssMain .dijitComboButton .dijitButtonNode,
-#ttrssMain .dijitToggleButton .dijitButtonNode,
-#ttrssMain .dijitSelect,
-#ttrssMain .dijitSelect .dijitButtonContents,
-#ttrssMain .dijitTextBox,
-#ttrssMain .dijitTextBox .dijitButtonNode {
+#ttrssMain div#main-toolbar .dijitButton .dijitButtonNode,
+#ttrssMain div#main-toolbar .dijitDropDownButton .dijitButtonNode,
+#ttrssMain div#main-toolbar .dijitComboButton .dijitButtonNode,
+#ttrssMain div#main-toolbar .dijitToggleButton .dijitButtonNode,
+#ttrssMain div#main-toolbar .dijitSelect,
+#ttrssMain div#main-toolbar .dijitSelect .dijitButtonContents,
+#ttrssMain div#main-toolbar .dijitTextBox,
+#ttrssMain div#main-toolbar .dijitTextBox .dijitButtonNode,
+#ttrssMain div#headlines-toolbar .dijitButton .dijitButtonNode,
+#ttrssMain div#headlines-toolbar .dijitDropDownButton .dijitButtonNode,
+#ttrssMain div#headlines-toolbar .dijitComboButton .dijitButtonNode,
+#ttrssMain div#headlines-toolbar .dijitToggleButton .dijitButtonNode,
+#ttrssMain div#headlines-toolbar .dijitSelect,
+#ttrssMain div#headlines-toolbar .dijitSelect .dijitButtonContents,
+#ttrssMain div#headlines-toolbar .dijitTextBox,
+#ttrssMain div#headlines-toolbar .dijitTextBox .dijitButtonNode {
   color: #4f4e48;
   background: transparent; /*#d2d0c4;*/
   border: 0 !important;
@@ -223,11 +231,16 @@ div#headlines-frame {
   border-radius: 3px !important;
   padding: 3px 6px !important;
 }
-#ttrssMain .dijitButtonHover .dijitButtonNode,
-#ttrssMain .dijitDropDownButtonHover .dijitButtonNode,
-#ttrssMain .dijitToggleButtonHover .dijitButtonNode,
-#ttrssMain .dijitComboButtonHover .dijitButtonNode,
-#ttrssMain .dijitButtonContentsHover {
+#ttrssMain div#main-toolbar .dijitButtonHover .dijitButtonNode,
+#ttrssMain div#main-toolbar .dijitDropDownButtonHover .dijitButtonNode,
+#ttrssMain div#main-toolbar .dijitToggleButtonHover .dijitButtonNode,
+#ttrssMain div#main-toolbar .dijitComboButtonHover .dijitButtonNode,
+#ttrssMain div#main-toolbar .dijitButtonContentsHover,
+#ttrssMain div#headlines-toolbar .dijitButtonHover .dijitButtonNode,
+#ttrssMain div#headlines-toolbar .dijitDropDownButtonHover .dijitButtonNode,
+#ttrssMain div#headlines-toolbar .dijitToggleButtonHover .dijitButtonNode,
+#ttrssMain div#headlines-toolbar .dijitComboButtonHover .dijitButtonNode,
+#ttrssMain div#headlines-toolbar .dijitButtonContentsHover {
   border: 0 !important;
   border-color: #bebcb0;
   border-radius: 3px !important;
@@ -235,29 +248,41 @@ div#headlines-frame {
   background: url(reeder_img/reeder_bg_darker.png) !important; /*#aba99d !important;*/
 }
 
-#ttrssMain .dijitSelect,
-#ttrssMain .dijitSelect .dijitButtonContents,
-#ttrssMain .dijitTextBox,
-#ttrssMain .dijitTextBox .dijitButtonNode {
+#ttrssMain div#main-toolbar .dijitSelect,
+#ttrssMain div#main-toolbar .dijitSelect .dijitButtonContents,
+#ttrssMain div#main-toolbar .dijitTextBox,
+#ttrssMain div#main-toolbar .dijitTextBox .dijitButtonNode,
+#ttrssMain div#headlines-toolbar .dijitSelect,
+#ttrssMain div#headlines-toolbar .dijitSelect .dijitButtonContents,
+#ttrssMain div#headlines-toolbar .dijitTextBox,
+#ttrssMain div#headlines-toolbar .dijitTextBox .dijitButtonNode {
   padding: 1px 6px !important;
 }
-#ttrssMain .dijitSelect .dijitArrowButton {
+#ttrssMain div#main-toolbar .dijitSelect .dijitArrowButton,
+#ttrssMain div#headlines-toolbar .dijitSelect .dijitArrowButton {
   background: none !important;
   border: 0 !important;
   padding: 0 !important;
 }
-#ttrssMain .dijitSelectHover .dijitArrowButton {
+#ttrssMain div#main-toolbar .dijitSelectHover .dijitArrowButton,
+#ttrssMain div#headlines-toolbar .dijitSelectHover .dijitArrowButton {
   background: url(reeder_img/reeder_bg_darker.png) !important; /*#aba99d !important;*/
   border: 0 !important;
 }
-#ttrssMain .dijitSelect .dijitArrowButtonInner,
-#ttrssMain .dijitComboBox .dijitArrowButtonInner,
-#ttrssMain .dijitArrowButtonInner {
+#ttrssMain div#main-toolbar .dijitSelect .dijitArrowButtonInner,
+#ttrssMain div#main-toolbar .dijitComboBox .dijitArrowButtonInner,
+#ttrssMain div#main-toolbar .dijitArrowButtonInner,
+#ttrssMain div#headlines-toolbar .dijitSelect .dijitArrowButtonInner,
+#ttrssMain div#headlines-toolbar .dijitComboBox .dijitArrowButtonInner,
+#ttrssMain div#headlines-toolbar .dijitArrowButtonInner {
   background: url(reeder_img/triangle_full_down.png) 50% 100%;
 }
-#ttrssMain .dijitSelectHover .dijitArrowButtonInner,
-#ttrssMain .dijitComboBoxHover .dijitArrowButtonInner,
-#ttrssMain .dijitArrowButtonInner {
+#ttrssMain div#main-toolbar .dijitSelectHover .dijitArrowButtonInner,
+#ttrssMain div#main-toolbar .dijitComboBoxHover .dijitArrowButtonInner,
+#ttrssMain div#main-toolbar .dijitArrowButtonInner,
+#ttrssMain div#headlines-toolbar .dijitSelectHover .dijitArrowButtonInner,
+#ttrssMain div#headlines-toolbar .dijitComboBoxHover .dijitArrowButtonInner,
+#ttrssMain div#headlines-toolbar .dijitArrowButtonInner {
   background-position: 50% 50% !important;
 }
 
@@ -267,6 +292,7 @@ div#headlines-frame {
   border: 1px;
   border-color: #bebcb0;
 }
+
 #ttrssMain .dijitMenu td.dijitMenuItemLabel {
   color: #4f4e48;
   font-size: 14px !important;
