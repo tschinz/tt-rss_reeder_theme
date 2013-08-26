@@ -684,9 +684,10 @@ img[src*="plugins/article_toolbar/images/down.png"] {
 
 button.button_nav img {
   background-color: transparent !important;
+  background-position: center center !important;
   background-repeat: no-repeat !important;
   height: 24px !important;
-  padding-right: 24px;
+  padding-right: 18px;
   width: 0 !important;
   display: inline-block;
 }
