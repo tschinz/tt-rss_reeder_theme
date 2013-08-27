@@ -654,54 +654,40 @@ img[src*="plugins/tweet/tweet.png"] {
 /* article_toolbar modification */
 img[src*="plugins/article_toolbar_small/images/feed.png"],
 img[src*="plugins/article_toolbar/images/feed.png"] {
-  background: transparent url(reeder_img/rss.png) no-repeat !important;
-  height: 24px !important;
-  padding-right: 24px;
-  width: 0 !important;
-  display: inline-block;
+  background-image: url(reeder_img/rss.png) !important;
 }
 
 img[src*="plugins/article_toolbar_small/images/list.png"],
 img[src*="plugins/article_toolbar/images/list.png"] {
-  background: transparent url(reeder_img/list.png) no-repeat !important;
-  height: 24px !important;
-  padding-right: 24px;
-  width: 0 !important;
-  display: inline-block;
+  background-image: url(reeder_img/list.png) !important;
 }
 
 img[src*="plugins/article_toolbar_small/images/read.png"],
 img[src*="plugins/article_toolbar/images/read.png"] {
-  background: transparent url(reeder_img/read.png) no-repeat !important;
-  height: 24px !important;
-  padding-right: 24px;
-  width: 0 !important;
-  display: inline-block;
+  background-image: url(reeder_img/read.png) !important;
 }
 
 img[src*="plugins/article_toolbar_small/images/refresh.png"],
 img[src*="plugins/article_toolbar/images/refresh.png"] {
-  background: transparent url(reeder_img/refresh.png) no-repeat !important;
-  height: 24px !important;
-  padding-right: 24px;
-  width: 0 !important;
-  display: inline-block;
+  background-image: url(reeder_img/refresh.png) !important;
 }
 
 img[src*="plugins/article_toolbar_small/images/up.png"],
 img[src*="plugins/article_toolbar/images/up.png"] {
-  background: transparent url(reeder_img/up.png) no-repeat !important;
-  height: 24px !important;
-  padding-right: 24px;
-  width: 0 !important;
-  display: inline-block;
+  background-image: url(reeder_img/up.png) !important;
 }
 
 img[src*="plugins/article_toolbar_small/images/down.png"],
 img[src*="plugins/article_toolbar/images/down.png"] {
-  background: transparent url(reeder_img/down.png) no-repeat !important;
+  background-image: url(reeder_img/down.png) !important;
+}
+
+button.button_nav img {
+  background-color: transparent !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
   height: 24px !important;
-  padding-right: 24px;
+  padding-right: 18px;
   width: 0 !important;
   display: inline-block;
 }
