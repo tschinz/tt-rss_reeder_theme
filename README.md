@@ -64,7 +64,7 @@ Use the legacy tree with the [Old Reeder Theme](https://github.com/tschinz/tt-rs
 Copy the folder `reeder_img/` and the file `reeder.css` into your `tt-rss/themes/` directory.
 
 ###TT-RSS >v1.11
-Hurray you can use the new Reeder Theme [Old Reeder Theme](https://github.com/tschinz/tt-rss_reeder_theme)
+Hurray you can use the new Reeder Theme [Reeder Theme](https://github.com/tschinz/tt-rss_reeder_theme)
 
 Copy the folder `reeder/` and the file `reeder.css` into your `tt-rss/themes/` directory.
 
