@@ -9,18 +9,18 @@ Screenshots
 ---
 **Loading screen**
 
-![Reeder Theme Loading](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot2.png?raw=true)
+![Reeder Theme Loading](https://github.com/tschinz/tt-rss_reeder_theme/blob/legacy/screenshot/screenshot2.png?raw=true)
 
 **Combined Feed Display Enabled**
 
-![Reeder Theme Combined Feeds](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot1.png?raw=true)
+![Reeder Theme Combined Feeds](https://github.com/tschinz/tt-rss_reeder_theme/blob/legacy/screenshot/screenshot1.png?raw=true)
 
 **Widescreen mode and Combined Feed Display Disabled**
 
-![Reeder Theme Widescreen](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot3.png?raw=true)
+![Reeder Theme Widescreen](https://github.com/tschinz/tt-rss_reeder_theme/blob/legacy/screenshot/screenshot3.png?raw=true)
 
 **New plugin icons**
-![Reeder Theme Plugin icons](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/screenshot4.png?raw=true)
+![Reeder Theme Plugin icons](https://github.com/tschinz/tt-rss_reeder_theme/blob/legacy/screenshot/screenshot4.png?raw=true)
 
 it includes icons for the following plugins (plugin folders needs to be saved as indicated below):
 - evernote
