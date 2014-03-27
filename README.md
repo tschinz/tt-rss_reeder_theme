@@ -9,27 +9,27 @@ Screenshots
 ---
 **Loading screen**
 
-![Reeder Theme Loading](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/loading_screen.png?raw=true)
+![Reeder Theme Loading](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/reeder_screenshot/loading_screen.png?raw=true)
 
 **Combined Feed Mode**
 
-![Reeder Theme Combined Feeds](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/combined_feed_mode_1.png?raw=true)
+![Reeder Theme Combined Feeds](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/reeder_screenshot/combined_mode_1.png?raw=true)
 
 **Combined Feed Mode - Hidden Feed Tree**
 
-![Reeder Theme Combined Feeds](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/combined_feed_mode_2.png?raw=true)
+![Reeder Theme Combined Feeds](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/reeder_screenshot/combined_mode_2.png?raw=true)
 
 **Normal Feed Mode - Vertical**
 
-![Reeder Theme Combined Feeds](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/normal_feed_mode_1.png?raw=true)
+![Reeder Theme Combined Feeds](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/reeder_screenshot/normal_mode_1.png?raw=true)
 
 **Normal Feed Mode - Horizontal**
 
-![Reeder Theme Combined Feeds](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/normal_feed_mode_2.png?raw=true)
+![Reeder Theme Combined Feeds](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/reeder_screenshot/normal_mode_2.png?raw=true)
 
 **Preferences**
 
-![Reeder Theme Combined Feeds](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/screenshot/preferences.png?raw=true)
+![Reeder Theme Combined Feeds](https://github.com/tschinz/tt-rss_reeder_theme/blob/master/reeder_screenshot/preferences.png?raw=true)
 
 Features
 ---
