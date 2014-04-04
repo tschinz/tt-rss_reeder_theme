@@ -357,13 +357,8 @@ img,
 #main_toolbar_form,
 .actionChooser {
 	display: table-cell;
-	white-space: nowrap;
-	margin-top: 1px;
-}
-#headlines-toolbar .r{
-	position: absolute;
-	display: table-cell;
-	white-space: nowrap;
+  vertical-align: top;
+  white-space: nowrap;
 }
 
 #headlines-toolbar {
