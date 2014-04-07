@@ -499,7 +499,7 @@ a:hover {
 	z-index: 100;
 	width: 100%;
 	height: 100%;
-	background: #fff;
+	background: rgba(244, 238, 222, 1); /*bg_bright*/
 	text-align: center;
 }
 .labelColorIndicator,
@@ -834,18 +834,19 @@ a:hover {
 
 /* articles - collapsed, floating title */
 #floatingTitle {
+	background-color: rgba(239,230,207,1); /*bg_dark*/
 	position: absolute;
 	top: 1px;
 	right: 34px;
 	left: 26px;
 	z-index: 4;
-	background: #fff;
 }
 #floatingTitle .title {
 	color: inherit;
 }
 #floatingTitle .titleWrap:before,
 #floatingTitle .titleWrap:after {
+	background-color: rgba(239,230,207,1); /*bg_dark*/
 	position: absolute;
 	right: 0;
 	left: 0;
