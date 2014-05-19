@@ -1,7 +1,8 @@
-[TinyTinyRSS Reeder Theme](zawiki.zapto.org/doku.php/tschinz:linux_ttrss)
+[TinyTinyRSS Reeder Theme](http://tschinz.github.io/tt-rss_reeder_theme)
 ================================
 
 This is an attempt to simulate the Reeder feeling in the TinyTinyRSS Reader. Since version v2.0 it is build from scratch.
+Check out the project page http://tschinz.github.io/tt-rss_reeder_theme
 
 ---
 
