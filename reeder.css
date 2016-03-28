@@ -859,6 +859,7 @@ a:hover {
 	right: 34px;
 	left: 26px;
 	z-index: 4;
+  margin-right: 0px !important;
 }
 #floatingTitle .title {
 	color: inherit;
@@ -1162,6 +1163,9 @@ not(#headlines-frame.wide),
 	clear: both;
 	padding: 0 33px 33px;
 }
+div.cdmFooter > div {
+	  float: right;
+}
 .cdm.expandable.active .cdmHeader .titleWrap,
 .cdm.expanded .cdmHeader > .titleWrap {
 	padding: 0;
@@ -1304,7 +1308,8 @@ div.articleNote {
 	color: #444;
 	line-height: 1;
 }
-.cdmContentInner {
+.cdmContentInner,
+.cdmIntermediate {
 	background: rgba(239,230,207,1); /*bg_dark*/
 	margin: -200px 0 0;
 	padding: 210px 33px 10px;
