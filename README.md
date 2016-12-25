@@ -38,7 +38,7 @@ Features
 - Clean and simple
 - Feed tree can be hidden
 - Preferences pane included
-- New loading screen 
+- New loading screen
 - Supports `Combined Feed` and `Normal Feed` Mode including widescreen
 - New Plugin Icons, it includes icons for the following plugins (plugin folders needs to be saved as indicated below):
  - evernote
@@ -81,7 +81,8 @@ Versions Log
 - `v1.7` - Added style for the article_toolbar and article_toolbar_small plugins, minor bugfixes
 - `v1.8` - New Toolbar style and Feed title
 - `v1.9` - Version in sync with ttrss ;-), supports TTRSS v1.9, updated some images, supports floating title, supports share notshared plugin functionality
-- `v2.0` - Rebuild from scratch, No dependencies to TT-RSS CSS 
+- `v2.0` - Rebuild from scratch, No dependencies to TT-RSS CSS
+- `v2.1` - Store google fonts locally
 
 Thanks
 ---
