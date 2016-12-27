@@ -16,7 +16,7 @@
 @font-face {
     font-family: 'Open Sans';
     font-style: italic;
-    font-weight: 600; 
+    font-weight: 600;
     src: url('reeder/fonts/OpenSans-SemiboldItalic-webfont.eot');
     src: url('reeder/fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/OpenSans-SemiboldItalic-webfont.svg#open_sanssemibold_italic') format('svg'), url('reeder/fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff'), url('reeder/fonts/OpenSans-SemiboldItalic-webfont.ttf') format('truetype');
 }
@@ -26,13 +26,13 @@
 ---------------------------------------------------------- */
 @font-face {
     font-family: 'Open Sans';
-    font-style: normal; 
+    font-style: normal;
     font-weight: 400;
     src: url('reeder/fonts/OpenSans-Regular-webfont.eot');
     src: url('reeder/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg'), url('reeder/fonts/OpenSans-Regular-webfont.woff') format('woff'), url('reeder/fonts/OpenSans-Regular-webfont.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'Open Sans'; 
+    font-family: 'Open Sans';
     font-style: italic;
     font-weight: 400;
     src: url('reeder/fonts/OpenSans-Italic-webfont.eot');
@@ -42,13 +42,13 @@
   300
 ---------------------------------------------------------- */
 @font-face {
-    font-family: 'Open Sans';  
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
     src: url('reeder/fonts/OpenSans-Light-webfont.eot');
     src: url('reeder/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/OpenSans-Light-webfont.woff') format('woff'), url('reeder/fonts/OpenSans-Light-webfont.ttf') format('truetype'), url('reeder/fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
 }
-@font-face { 
+@font-face {
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 300;
@@ -468,6 +468,16 @@ a:hover {
 
 /* STYLING ************************************************************/
 
+.claro .dijitPopup {
+max-height: 500px;
+overflow-y: auto;
+}
+
+.claro .dijitMenuPopup {
+max-height: 500px;
+overflow-y: auto;
+}
+
 #toolbar {
 	padding-left: 32px;
 	padding-right: 32px;
@@ -708,7 +718,7 @@ a:hover {
 	font-size: 10px;
 }
 #feeds-holder .dijitTreeRow .counterNode.aux {
-	color: #4f4e48; 
+	color: #4f4e48;
 }
 #feeds-holder img.feedIcon,
 #feeds-holder .labelColorIndicator {
@@ -1778,7 +1788,7 @@ img[src*="images/mark_unset.png"] { /* TTRSS > v1.9 */
   background: transparent url(reeder/images/star.png) no-repeat;
   height: 24px;
   padding-right: 24px;
-  width: 0;  
+  width: 0;
   margin-top: -5px;
   display: inline-block;
 }
@@ -1825,7 +1835,7 @@ img[src*="plugins/note/note.png"] {
   display: inline-block;
 }
 
-img[src*="plugins/share/share.png"] { 
+img[src*="plugins/share/share.png"] {
   background: transparent url(reeder/images/share.png) no-repeat;
   height: 24px;
   padding-right: 24px;
