@@ -83,6 +83,7 @@ Versions Log
 - `v1.9` - Version in sync with ttrss ;-), supports TTRSS v1.9, updated some images, supports floating title, supports share notshared plugin functionality
 - `v2.0` - Rebuild from scratch, No dependencies to TT-RSS CSS
 - `v2.1` - Store google fonts locally
+- `v2.2` - Bugfix for toggle_sidebar Plugin
 
 Thanks
 ---

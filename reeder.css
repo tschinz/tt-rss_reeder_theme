@@ -615,12 +615,12 @@ overflow-y: auto;
 }
 
 /************************************************************
-* Feed Tree (Sidebar)
+* Sidebar needs toggle_sidebar plugin
 */
-#ttrssMain #main_toolbar_form > .dijitButton {
+#ttrssMain #main-toolbar > .dijitButton {
 	display: block !important;
 }
-#ttrssMain #main_toolbar_form > .dijitButton .dijitButtonNode {
+#ttrssMain #main-toolbar > .dijitButton .dijitButtonNode {
   background-color: rgba(215,206,186,1) !important; /*bg_darker*/
   background-image: url(reeder/images/reeder_stripes.png) !important;
 	position: fixed;
@@ -635,7 +635,7 @@ overflow-y: auto;
 	box-shadow: none;
 	transition: background .5s;
 }
-#ttrssMain #main_toolbar_form > .dijitButton .dijitButtonContents {
+#ttrssMain #main-toolbar > .dijitButton .dijitButtonContents {
 	position: absolute;
 	top: 83px;
 	left: 7px;
@@ -649,12 +649,16 @@ overflow-y: auto;
 	opacity: .2;
 	transition: opacity .5s;
 }
-#ttrssMain #main_toolbar_form > .dijitButton:hover .dijitButtonNode {
+#ttrssMain #main-toolbar > .dijitButton:hover .dijitButtonNode {
 	background: rgba(0,0,0,.05);
 }
-#ttrssMain #main_toolbar_form > .dijitButton:hover .dijitButtonContents {
+#ttrssMain #main-toolbar > .dijitButton:hover .dijitButtonContents {
 	opacity: .7;
 }
+
+/************************************************************
+* Feed Tree
+*/
 #feeds-holder #feedTree {
   background-color: rgba(239,230,207,1) !important; /*bg_dark*/
   background-image: url(reeder/images/reeder_stripes.png) !important;
