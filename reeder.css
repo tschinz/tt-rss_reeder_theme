@@ -4,57 +4,96 @@
 
 /*Create locally stored OpenSans font */
 /* ----------------------------------------------------------
-   600
----------------------------------------------------------- */
+/* BEGIN Light */
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    src: url('reeder/fonts/OpenSans-Semibold-webfont.eot');
-    src: url('reeder/fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg'), url('reeder/fonts/OpenSans-Semibold-webfont.woff') format('woff'), url('reeder/fonts/OpenSans-Semibold-webfont.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: 600;
-    src: url('reeder/fonts/OpenSans-SemiboldItalic-webfont.eot');
-    src: url('reeder/fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/OpenSans-SemiboldItalic-webfont.svg#open_sanssemibold_italic') format('svg'), url('reeder/fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff'), url('reeder/fonts/OpenSans-SemiboldItalic-webfont.ttf') format('truetype');
+  font-family: 'Open Sans';
+  src: url("reeder/fonts/Light/OpenSans-Light.woff2?v=1.101") format("woff2"), url("reeder/fonts/Light/OpenSans-Light.woff?v=1.101") format("woff");
+  font-weight: 300;
+  font-style: normal;
 }
 
-/* ----------------------------------------------------------
-   400
----------------------------------------------------------- */
+/* END Light */
+/* BEGIN Light Italic */
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: url('reeder/fonts/OpenSans-Regular-webfont.eot');
-    src: url('reeder/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg'), url('reeder/fonts/OpenSans-Regular-webfont.woff') format('woff'), url('reeder/fonts/OpenSans-Regular-webfont.ttf') format('truetype');
+  font-family: 'Open Sans';
+  src: url("reeder/fonts/LightItalic/OpenSans-LightItalic.woff2?v=1.101") format("woff2"), url("reeder/fonts/LightItalic/OpenSans-LightItalic.woff?v=1.101") format("woff");
+  font-weight: 300;
+  font-style: italic;
 }
+
+/* END Light Italic */
+/* BEGIN Regular */
 @font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: 400;
-    src: url('reeder/fonts/OpenSans-Italic-webfont.eot');
-    src: url('reeder/fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/OpenSans-Italic-webfont.svg#open_sansitalic') format('svg'), url('reeder/fonts/OpenSans-Italic-webfont.woff') format('woff'), url('reeder/fonts/OpenSans-Italic-webfont.ttf') format('truetype');
+  font-family: 'Open Sans';
+  src: url("reeder/fonts/Regular/OpenSans-Regular.woff2?v=1.101") format("woff2"), url("reeder/fonts/Regular/OpenSans-Regular.woff?v=1.101") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-/* ----------------------------------------------------------
-  300
----------------------------------------------------------- */
+
+/* END Regular */
+/* BEGIN Italic */
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 300;
-    src: url('reeder/fonts/OpenSans-Light-webfont.eot');
-    src: url('reeder/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/OpenSans-Light-webfont.woff') format('woff'), url('reeder/fonts/OpenSans-Light-webfont.ttf') format('truetype'), url('reeder/fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+  font-family: 'Open Sans';
+  src: url("reeder/fonts/Italic/OpenSans-Italic.woff2?v=1.101") format("woff2"), url("reeder/fonts/Italic/OpenSans-Italic.woff?v=1.101") format("woff");
+  font-weight: normal;
+  font-style: italic;
 }
+
+/* END Italic */
+/* BEGIN Semibold */
 @font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: 300;
-    src: url('reeder/fonts/OpenSans-LightItalic-webfont.eot');
-    src: url('reeder/fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/OpenSans-LightItalic-webfont.svg#open_sanslight_italic') format('svg'), url('reeder/fonts/OpenSans-LightItalic-webfont.woff') format('woff'), url('reeder/fonts/OpenSans-LightItalic-webfont.ttf') format('truetype');
+  font-family: 'Open Sans';
+  src: url("reeder/fonts/Semibold/OpenSans-Semibold.woff2?v=1.101") format("woff2"), url("reeder/fonts/Semibold/OpenSans-Semibold.woff?v=1.101") format("woff");
+  font-weight: 600;
+  font-style: normal;
 }
+
+/* END Semibold */
+/* BEGIN Semibold Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("reeder/fonts/SemiboldItalic/OpenSans-SemiboldItalic.woff2?v=1.101") format("woff2"), url("reeder/fonts/SemiboldItalic/OpenSans-SemiboldItalic.woff?v=1.101") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* END Semibold Italic */
+/* BEGIN Bold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("reeder/fonts/Bold/OpenSans-Bold.woff2?v=1.101") format("woff2"), url("reeder/fonts/Bold/OpenSans-Bold.woff?v=1.101") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* END Bold */
+/* BEGIN Bold Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("reeder/fonts/BoldItalic/OpenSans-BoldItalic.woff2?v=1.101") format("woff2"), url("reeder/fonts/BoldItalic/OpenSans-BoldItalic.woff?v=1.101") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* END Bold Italic */
+/* BEGIN Extrabold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("reeder/fonts/ExtraBold/OpenSans-ExtraBold.woff2?v=1.101") format("woff2"), url("reeder/fonts/ExtraBold/OpenSans-ExtraBold.woff?v=1.101") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* END Extrabold */
+/* BEGIN Extrabold Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("reeder/fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff2?v=1.101") format("woff2"), url("reeder/fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff?v=1.101") format("woff");
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* END Extrabold Italic */
 
 /* FROM TT-RSS.CSS ************************************************************/
 
