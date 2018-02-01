@@ -1,0 +1,8 @@
+title: TT-RSS reeder theme
+description: Reeder like theme for TinyTinyRSS
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-hacker
+
+gems:
+  - jekyll-mentions
