@@ -1,4 +1,4 @@
-/* supports-version:17.12 */
+/* supports-version:18.8 */
 @import url(reeder/claro-mod.min.css);
 /* @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800); */
 
@@ -453,7 +453,7 @@ img,
 
 .ttrss_main,
 #ttrssMain,
-#ttrssPrefs {
+.ttrss_prefs {
 	width: 100%,
 	height: 100%,
 	position: absolute;
@@ -2018,7 +2018,7 @@ img[src*="plugins/article_toolbar/images/down.png"] {
 	margin-left: 12px;
 }
 /* standard button styling applied to various elements */
-#ttrssPrefs #header a,
+.ttrss_prefs #header a,
 #cancel_search a,
 .cdmContentInner .expandPrompt {
 	-moz-box-sizing: border-box;
@@ -2037,7 +2037,7 @@ img[src*="plugins/article_toolbar/images/down.png"] {
 	transition: all .2s;
 }
 
-#ttrssPrefs #header a:hover,
+.ttrss_prefs #header a:hover,
 #cancel_search a:hover,
 .cdmContentInner .expandPrompt:hover {
 	border-color: #d4d4d4;
@@ -2045,7 +2045,7 @@ img[src*="plugins/article_toolbar/images/down.png"] {
 	color: #222;
 }
 
-#ttrssPrefs #header a:hover:active,
+.ttrss_prefs #header a:hover:active,
 #cancel_search a:hover:active,
 .cdmContentInner .expandPrompt:hover:active {
 	background: #ddd;
@@ -2161,19 +2161,19 @@ table.prefErrorLog td.filename, table.prefErrorLog td.login, table.prefErrorLog 
 }
 
 /* layout */
-#ttrssPrefs #header {
+.ttrss_prefs #header {
 	position: absolute;
 	top: 7px;
 	right: 2px;
 	z-index: 1;
 }
-#ttrssPrefs #pref-tabs {
+.ttrss_prefs #pref-tabs {
 	padding: 5px 10px 0;
 }
-#ttrssPrefs #pref-tabs_tablist {
+.ttrss_prefs #pref-tabs_tablist {
 	padding-right: 150px;
 }
-#ttrssPrefs #pref-tabs_tablist:after {
+.ttrss_prefs #pref-tabs_tablist:after {
 	position: absolute;
 	right: 0;
 	bottom: 0;
@@ -2181,7 +2181,7 @@ table.prefErrorLog td.filename, table.prefErrorLog td.login, table.prefErrorLog 
 	border-top: 1px solid #d8d8d8;
 	content: "";
 }
-#ttrssPrefs #footer {
+.ttrss_prefs #footer {
 	padding: 0 10px 5px;
 	background: #eee;
 	text-align: center;
@@ -2192,34 +2192,34 @@ table.prefErrorLog td.filename, table.prefErrorLog td.login, table.prefErrorLog 
 }
 
 /* content */
-#ttrssPrefs h1,
-#ttrssPrefs h2,
-#ttrssPrefs h3,
-#ttrssPrefs h4,
-#ttrssPrefs h5,
-#ttrssPrefs h6 {
+.ttrss_prefs h1,
+.ttrss_prefs h2,
+.ttrss_prefs h3,
+.ttrss_prefs h4,
+.ttrss_prefs h5,
+.ttrss_prefs h6 {
 	margin-top: 12px;
 	margin-bottom: 3px;
 }
-#ttrssPrefs hr {
+.ttrss_prefs hr {
 	border: none;
 	border-top: 1px solid #ddd;
 }
-#ttrssPrefs .feedParam,
-#ttrssPrefs .labelParam,
-#ttrssPrefs .prefHelp {
+.ttrss_prefs .feedParam,
+.ttrss_prefs .labelParam,
+.ttrss_prefs .prefHelp {
 	color: #909090;
 	font-size: 11px;
 }
-#ttrssPrefs .feedParam,
-#ttrssPrefs .labelParam {
+.ttrss_prefs .feedParam,
+.ttrss_prefs .labelParam {
 	float: right;
 	margin-right: 1em;
 }
-#ttrssPrefs .labelParam.disabled {
+.ttrss_prefs .labelParam.disabled {
 	color: #aaa;
 }
-#ttrssPrefs a.bookmarklet {
+.ttrss_prefs a.bookmarklet {
 	position: relative;
 	display: inline-block;
 	margin: 10px 50px 25px;
@@ -2233,7 +2233,7 @@ table.prefErrorLog td.filename, table.prefErrorLog td.login, table.prefErrorLog 
 	cursor: move;
 	-webkit-user-drag: element;
 }
-#ttrssPrefs a.bookmarklet:after {
+.ttrss_prefs a.bookmarklet:after {
 	position: absolute;
 	top: -1px;
 	right: -1px;
