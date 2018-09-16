@@ -1,6 +1,6 @@
 /* supports-version:18.8 */
+
 @import url(reeder/claro-mod.min.css);
-/* @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800); */
 
 /*Create locally stored OpenSans font */
 /* ----------------------------------------------------------
@@ -117,14 +117,7 @@ div.articleNote div.noteEdit {
 /* @142 */
 #notify.visible {
 	transform: translate(0, -100px);
-	-webkit-transform: translate(0, -100px);
-	-o-transform: translate(0, -100px);
-	-moz-transform: translate(0, -100px);
-
 	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
 }
 
 #notify {
@@ -381,7 +374,7 @@ ul#filterDlg_Matches, ul#filterDlg_Actions {
 	overflow : auto;
 	list-style-type : none;
 	border-style : solid;
-  border-color : #ddd;
+	border-color : #ddd;
 	border-width : 0px 1px 1px 1px;
 	background-color : white;
 	margin : 0px 0px 5px 0px;
@@ -454,13 +447,12 @@ img,
 .ttrss_main,
 #ttrssMain,
 .ttrss_prefs {
-	width: 100%,
-	height: 100%,
+	width: 100vw,
+	height: 100vh,
 	position: absolute;
 	margin: 0px;
-/*	padding: 8px;*/
 	overflow: hidden;
-	max-height: 100%;
+	max-height: 100vh;
 }
 #main {
 	width: 100%;
@@ -476,7 +468,7 @@ img,
 #headlines-toolbar .main,
 #main_toolbar_form,
 .actionChooser {
-	display: table-cell;
+  display: table-cell;
   vertical-align: top;
   white-space: nowrap;
 }
@@ -715,7 +707,7 @@ overflow-y: auto;
 /* don't react on clicks between rows */
 #feeds-holder #feedTree:after {
 	background-color: rgba(239,230,207,1) !important; /*bg_dark*/
-  background-image: url(reeder/images/reeder_stripes.png) !important;
+	background-image: url(reeder/images/reeder_stripes.png) !important;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -2259,9 +2251,8 @@ div.insensitive{
 #overlay_inner {
   font-size: 16px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -220px;
+  top: 50vh;
+  left: 50vw;
   text-align: center;
   background-color: rgba(215,206,186,1); /*bg_darker*/
   background-image: url(reeder/images/reeder_stripes.png);
@@ -2272,12 +2263,16 @@ div.insensitive{
   border-radius: 10px;
   padding: 20px;
   width: 400px;
+  max-width: calc(100vw - 50px);
+  transform: translate(-50%,-50%);
 }
 #overlay_inner .dijitProgressBar {
   display: inline-block;
   margin-top: 20px;
   background-color: #d2d0c4;
   border-radius: 3px;
+  width: 300px;
+  max-width: calc(70vw - 50px);
 }
 #overlay_inner .dijitProgressBarEmpty {
   border: 0;
