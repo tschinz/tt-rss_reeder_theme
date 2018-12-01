@@ -1,97 +1,97 @@
-/* supports-version:17.12 */
+/* supports-version:18.8 */
+
 @import url(reeder/claro-mod.min.css);
-/* @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800); */
 
 /*Create locally stored OpenSans font */
 /* ----------------------------------------------------------
 /* BEGIN Light */
 @font-face {
-  font-family: 'Open Sans';
-  src: url('reeder/fonts/Light/OpenSans-Light.eot');
-  src: url('reeder/fonts/Light/OpenSans-Light.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/Light/OpenSans-Light.woff') format('woff'), url('reeder/fonts/Light/OpenSans-Light.ttf') format('truetype'), url('reeder/fonts/Light/OpenSans-Light.svg#OpenSansLight') format('svg');
-  font-weight: 300;
-  font-style: normal;
+	font-family: 'Open Sans';
+	src: url('reeder/fonts/Light/OpenSans-Light.eot');
+	src: url('reeder/fonts/Light/OpenSans-Light.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/Light/OpenSans-Light.woff') format('woff'), url('reeder/fonts/Light/OpenSans-Light.ttf') format('truetype'), url('reeder/fonts/Light/OpenSans-Light.svg#OpenSansLight') format('svg');
+	font-weight: 300;
+	font-style: normal;
 }
 /* END Light */
 /* BEGIN Light Italic */
 @font-face {
-  font-family: 'Open Sans';
-  src: url('reeder/fonts/LightItalic/OpenSans-LightItalic.eot');
-  src: url('reeder/fonts/LightItalic/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/LightItalic/OpenSans-LightItalic.woff') format('woff'), url('reeder/fonts/LightItalic/OpenSans-LightItalic.ttf') format('truetype'), url('reeder/fonts/LightItalic/OpenSans-LightItalic.svg#OpenSansLightItalic') format('svg');
-  font-weight: 300;
-  font-style: italic;
+	font-family: 'Open Sans';
+	src: url('reeder/fonts/LightItalic/OpenSans-LightItalic.eot');
+	src: url('reeder/fonts/LightItalic/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/LightItalic/OpenSans-LightItalic.woff') format('woff'), url('reeder/fonts/LightItalic/OpenSans-LightItalic.ttf') format('truetype'), url('reeder/fonts/LightItalic/OpenSans-LightItalic.svg#OpenSansLightItalic') format('svg');
+	font-weight: 300;
+	font-style: italic;
 }
 /* END Light Italic */
 /* BEGIN Regular */
 @font-face {
-  font-family: 'Open Sans';
-  src: url('reeder/fonts/Regular/OpenSans-Regular.eot');
-  src: url('reeder/fonts/Regular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/Regular/OpenSans-Regular.woff') format('woff'), url('reeder/fonts/Regular/OpenSans-Regular.ttf') format('truetype'), url('reeder/fonts/Regular/OpenSans-Regular.svg#OpenSansRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Open Sans';
+	src: url('reeder/fonts/Regular/OpenSans-Regular.eot');
+	src: url('reeder/fonts/Regular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/Regular/OpenSans-Regular.woff') format('woff'), url('reeder/fonts/Regular/OpenSans-Regular.ttf') format('truetype'), url('reeder/fonts/Regular/OpenSans-Regular.svg#OpenSansRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 /* END Regular */
 /* BEGIN Italic */
 @font-face {
-  font-family: 'Open Sans';
-  src: url('reeder/fonts/Italic/OpenSans-Italic.eot');
-  src: url('reeder/fonts/Italic/OpenSans-Italic.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/Italic/OpenSans-Italic.woff') format('woff'), url('reeder/fonts/Italic/OpenSans-Italic.ttf') format('truetype'), url('reeder/fonts/Italic/OpenSans-Italic.svg#OpenSansItalic') format('svg');
-  font-weight: normal;
-  font-style: italic;
+	font-family: 'Open Sans';
+	src: url('reeder/fonts/Italic/OpenSans-Italic.eot');
+	src: url('reeder/fonts/Italic/OpenSans-Italic.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/Italic/OpenSans-Italic.woff') format('woff'), url('reeder/fonts/Italic/OpenSans-Italic.ttf') format('truetype'), url('reeder/fonts/Italic/OpenSans-Italic.svg#OpenSansItalic') format('svg');
+	font-weight: normal;
+	font-style: italic;
 }
 /* END Italic */
 /* BEGIN Semibold */
 @font-face {
-  font-family: 'Open Sans';
-  src: url('reeder/fonts/Semibold/OpenSans-Semibold.eot');
-  src: url('reeder/fonts/Semibold/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/Semibold/OpenSans-Semibold.woff') format('woff'), url('reeder/fonts/Semibold/OpenSans-Semibold.ttf') format('truetype'), url('reeder/fonts/Semibold/OpenSans-Semibold.svg#OpenSansSemibold') format('svg');
-  font-weight: 600;
-  font-style: normal;
+	font-family: 'Open Sans';
+	src: url('reeder/fonts/Semibold/OpenSans-Semibold.eot');
+	src: url('reeder/fonts/Semibold/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/Semibold/OpenSans-Semibold.woff') format('woff'), url('reeder/fonts/Semibold/OpenSans-Semibold.ttf') format('truetype'), url('reeder/fonts/Semibold/OpenSans-Semibold.svg#OpenSansSemibold') format('svg');
+	font-weight: 600;
+	font-style: normal;
 }
 /* END Semibold */
 /* BEGIN Semibold Italic */
 @font-face {
-  font-family: 'Open Sans';
-  src: url('reeder/fonts/SemiboldItalic/OpenSans-SemiboldItalic.eot');
-  src: url('reeder/fonts/SemiboldItalic/OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/SemiboldItalic/OpenSans-SemiboldItalic.woff') format('woff'), url('reeder/fonts/SemiboldItalic/OpenSans-SemiboldItalic.ttf') format('truetype'), url('reeder/fonts/SemiboldItalic/OpenSans-SemiboldItalic.svg#OpenSansSemiboldItalic') format('svg');
-  font-weight: 600;
-  font-style: italic;
+	font-family: 'Open Sans';
+	src: url('reeder/fonts/SemiboldItalic/OpenSans-SemiboldItalic.eot');
+	src: url('reeder/fonts/SemiboldItalic/OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/SemiboldItalic/OpenSans-SemiboldItalic.woff') format('woff'), url('reeder/fonts/SemiboldItalic/OpenSans-SemiboldItalic.ttf') format('truetype'), url('reeder/fonts/SemiboldItalic/OpenSans-SemiboldItalic.svg#OpenSansSemiboldItalic') format('svg');
+	font-weight: 600;
+	font-style: italic;
 }
 /* END Semibold Italic */
 /* BEGIN Bold */
 @font-face {
-  font-family: 'Open Sans';
-  src: url('reeder/fonts/Bold/OpenSans-Bold.eot');
-  src: url('reeder/fonts/Bold/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/Bold/OpenSans-Bold.woff') format('woff'), url('reeder/fonts/Bold/OpenSans-Bold.ttf') format('truetype'), url('reeder/fonts/Bold/OpenSans-Bold.svg#OpenSansBold') format('svg');
-  font-weight: bold;
-  font-style: normal;
+	font-family: 'Open Sans';
+	src: url('reeder/fonts/Bold/OpenSans-Bold.eot');
+	src: url('reeder/fonts/Bold/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/Bold/OpenSans-Bold.woff') format('woff'), url('reeder/fonts/Bold/OpenSans-Bold.ttf') format('truetype'), url('reeder/fonts/Bold/OpenSans-Bold.svg#OpenSansBold') format('svg');
+	font-weight: bold;
+	font-style: normal;
 }
 /* END Bold */
 /* BEGIN Bold Italic */
 @font-face {
-  font-family: 'Open Sans';
-  src: url('reeder/fonts/BoldItalic/OpenSans-BoldItalic.eot');
-  src: url('reeder/fonts/BoldItalic/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/BoldItalic/OpenSans-BoldItalic.woff') format('woff'), url('reeder/fonts/BoldItalic/OpenSans-BoldItalic.ttf') format('truetype'), url('reeder/fonts/BoldItalic/OpenSans-BoldItalic.svg#OpenSansBoldItalic') format('svg');
-  font-weight: bold;
-  font-style: italic;
+	font-family: 'Open Sans';
+	src: url('reeder/fonts/BoldItalic/OpenSans-BoldItalic.eot');
+	src: url('reeder/fonts/BoldItalic/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/BoldItalic/OpenSans-BoldItalic.woff') format('woff'), url('reeder/fonts/BoldItalic/OpenSans-BoldItalic.ttf') format('truetype'), url('reeder/fonts/BoldItalic/OpenSans-BoldItalic.svg#OpenSansBoldItalic') format('svg');
+	font-weight: bold;
+	font-style: italic;
 }
 /* END Bold Italic */
 /* BEGIN Extrabold */
 @font-face {
-  font-family: 'Open Sans';
-  src: url('reeder/fonts/ExtraBold/OpenSans-ExtraBold.eot');
-  src: url('reeder/fonts/ExtraBold/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/ExtraBold/OpenSans-ExtraBold.woff') format('woff'), url('reeder/fonts/ExtraBold/OpenSans-ExtraBold.ttf') format('truetype'), url('reeder/fonts/ExtraBold/OpenSans-ExtraBold.svg#OpenSansExtrabold') format('svg');
-  font-weight: 800;
-  font-style: normal;
+	font-family: 'Open Sans';
+	src: url('reeder/fonts/ExtraBold/OpenSans-ExtraBold.eot');
+	src: url('reeder/fonts/ExtraBold/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/ExtraBold/OpenSans-ExtraBold.woff') format('woff'), url('reeder/fonts/ExtraBold/OpenSans-ExtraBold.ttf') format('truetype'), url('reeder/fonts/ExtraBold/OpenSans-ExtraBold.svg#OpenSansExtrabold') format('svg');
+	font-weight: 800;
+	font-style: normal;
 }
 /* END Extrabold */
 /* BEGIN Extrabold Italic */
 @font-face {
-  font-family: 'Open Sans';
-  src: url('reeder/fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot');
-  src: url('reeder/fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff') format('woff'), url('reeder/fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.ttf') format('truetype'), url('reeder/fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.svg#OpenSansExtraboldItalic') format('svg');
-  font-weight: 800;
-  font-style: italic;
+	font-family: 'Open Sans';
+	src: url('reeder/fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot');
+	src: url('reeder/fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'), url('reeder/fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff') format('woff'), url('reeder/fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.ttf') format('truetype'), url('reeder/fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.svg#OpenSansExtraboldItalic') format('svg');
+	font-weight: 800;
+	font-style: italic;
 }
 /* END Extrabold Italic */
 
@@ -117,14 +117,7 @@ div.articleNote div.noteEdit {
 /* @142 */
 #notify.visible {
 	transform: translate(0, -100px);
-	-webkit-transform: translate(0, -100px);
-	-o-transform: translate(0, -100px);
-	-moz-transform: translate(0, -100px);
-
 	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
 }
 
 #notify {
@@ -381,7 +374,7 @@ ul#filterDlg_Matches, ul#filterDlg_Actions {
 	overflow : auto;
 	list-style-type : none;
 	border-style : solid;
-  border-color : #ddd;
+	border-color : #ddd;
 	border-width : 0px 1px 1px 1px;
 	background-color : white;
 	margin : 0px 0px 5px 0px;
@@ -453,14 +446,13 @@ img,
 
 .ttrss_main,
 #ttrssMain,
-#ttrssPrefs {
-	width: 100%,
-	height: 100%,
+.ttrss_prefs {
+	width: 100vw,
+	height: 100vh,
 	position: absolute;
 	margin: 0px;
-/*	padding: 8px;*/
 	overflow: hidden;
-	max-height: 100%;
+	max-height: 100vh;
 }
 #main {
 	width: 100%;
@@ -477,8 +469,8 @@ img,
 #main_toolbar_form,
 .actionChooser {
 	display: table-cell;
-  vertical-align: top;
-  white-space: nowrap;
+	vertical-align: top;
+	white-space: nowrap;
 }
 
 #headlines-toolbar {
@@ -583,7 +575,7 @@ overflow-y: auto;
 #toolbar {
 	overflow: visible; /* fixes transitions of feed tree collapse button */
 	background-color: rgba(215,206,186,1); /*bg_darker*/
-  background-image: url(reeder/images/reeder_stripes.png);
+	background-image: url(reeder/images/reeder_stripes.png);
 }
 #main .dijitSplitterHover,
 #main .dijitSplitterActive {
@@ -668,8 +660,8 @@ overflow-y: auto;
 	display: block !important;
 }
 #ttrssMain #main-toolbar > .dijitButton .dijitButtonNode {
-  background-color: rgba(215,206,186,1) !important; /*bg_darker*/
-  background-image: url(reeder/images/reeder_stripes.png) !important;
+	background-color: rgba(215,206,186,1) !important; /*bg_darker*/
+	background-image: url(reeder/images/reeder_stripes.png) !important;
 	position: fixed;
 	top: 0;
 	bottom: 0;
@@ -707,15 +699,15 @@ overflow-y: auto;
 * Feed Tree
 */
 #feeds-holder #feedTree {
-  background-color: rgba(239,230,207,1) !important; /*bg_dark*/
-  background-image: url(reeder/images/reeder_stripes.png) !important;
+	background-color: rgba(239,230,207,1) !important; /*bg_dark*/
+	background-image: url(reeder/images/reeder_stripes.png) !important;
 	padding: 0 0 30px 0;
 }
 
 /* don't react on clicks between rows */
 #feeds-holder #feedTree:after {
 	background-color: rgba(239,230,207,1) !important; /*bg_dark*/
-  background-image: url(reeder/images/reeder_stripes.png) !important;
+	background-image: url(reeder/images/reeder_stripes.png) !important;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -834,62 +826,62 @@ overflow-y: auto;
 #ttrssMain .dijitTreeRow,
 #ttrssMain .dijitTreeNode .dojoDndItemBefore,
 #ttrssMain .dijitTreeNode .dojoDndItemAfter {
-  background-color: rgba(239,230,207,1); /*bg_dark*/
-  background-image: url(reeder/images/reeder_stripes.png);
-  color: #4f4e48;
-  display: block;
-  font-size: 12px;
-  line-height: 20px;
-  border: none;
+	background-color: rgba(239,230,207,1); /*bg_dark*/
+	background-image: url(reeder/images/reeder_stripes.png);
+	color: #4f4e48;
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	border: none;
 }
 #ttrssMain .dijitTreeRowHover,
 #ttrssMain .dijitTreeNode .dojoDndItemBeforeHover,
 #ttrssMain .dijitTreeNode .dojoDndItemAfterHover {
-  background-color: rgba(215,206,186,1); /*bg_darker*/
-  background-image: url(reeder/images/reeder_stripes.png);
-  color: #4f4e48;
-  -moz-box-shadow:    inset 0 0 2px #555555;
-  -webkit-box-shadow: inset 0 0 2px #555555;
-  box-shadow:         inset 0 0 2px #555555;
+	background-color: rgba(215,206,186,1); /*bg_darker*/
+	background-image: url(reeder/images/reeder_stripes.png);
+	color: #4f4e48;
+	-moz-box-shadow:    inset 0 0 2px #555555;
+	-webkit-box-shadow: inset 0 0 2px #555555;
+	box-shadow:         inset 0 0 2px #555555;
 	transition: background .5s;
 }
 #ttrssMain .dijitTreeRowSelected {
-  background-color: rgba(215,206,186,1); /*bg_darker*/
-  background-image: url(reeder/images/reeder_stripes.png);
-  color: #4f4e48;
+	background-color: rgba(215,206,186,1); /*bg_darker*/
+	background-image: url(reeder/images/reeder_stripes.png);
+	color: #4f4e48;
 }
 #ttrssMain .dijitTreeLabel {
-  margin: 0 8px;
+	margin: 0 8px;
 }
 #ttrssMain .dijitTreeIsRoot > .dijitTreeRow {
-  background-color: rgba(239,230,207,1); /*bg_dark*/
-  border-top: 1px solid #bebcb0 !important;
-  color: #4f4e48;
-  display: block;
-  font-size: 14px;
-  padding-top: 4px !important;
-  padding-bottom: 4px !important;
+	background-color: rgba(239,230,207,1); /*bg_dark*/
+	border-top: 1px solid #bebcb0 !important;
+	color: #4f4e48;
+	display: block;
+	font-size: 14px;
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
 }
 #ttrssMain .dijitTreeIsRoot > .dijitTreeRowHover {
-  background-color: rgba(215,206,186,1); /*bg_darker*/
-  background-image: url(reeder/images/reeder_stripes.png);
-  color: #4f4e48;
+	background-color: rgba(215,206,186,1); /*bg_darker*/
+	background-image: url(reeder/images/reeder_stripes.png);
+	color: #4f4e48;
 }
 
 #feedTree .counterNode,
 #feedTree .counterNode.aux {
-  background-color: #d2d0c4;
-  color: #4f4e48;
-  border: 1px solid #bebcb0;
-  font-size: 11px;
-  line-height: 16px;
-  padding: 0 8px;
-  min-width: 0;
-  border-radius: 3px;
+	background-color: #d2d0c4;
+	color: #4f4e48;
+	border: 1px solid #bebcb0;
+	font-size: 11px;
+	line-height: 16px;
+	padding: 0 8px;
+	min-width: 0;
+	border-radius: 3px;
 }
 
 #feedTree > div.dijitTreeContainer {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 /************************************************************
@@ -953,7 +945,7 @@ overflow-y: auto;
 }
 #headlines-spacer:after {
 	background-color: rgba(215,206,186,1); /*bg_darker*/
-  background-image: url(reeder/images/reeder_stripes.png);
+	background-image: url(reeder/images/reeder_stripes.png);
 	position: absolute;
 	right: -26px;
 	bottom: 0;
@@ -978,7 +970,7 @@ overflow-y: auto;
 	right: 34px;
 	left: 26px;
 	z-index: 4;
-  margin-right: 0px !important;
+	margin-right: 0px !important;
 }
 #floatingTitle .title {
 	color: inherit;
@@ -1024,7 +1016,7 @@ overflow-y: auto;
 }
 
 .hl.Selected {
-  background-color: rgba(215,206,186,1); /*bg_darker*/
+	background-color: rgba(215,206,186,1); /*bg_darker*/
 }
 
 /*height not applied in Widescreen mode*/
@@ -1032,7 +1024,7 @@ overflow-y: auto;
 .cdm.expandable:not(.active) .cdmHeader,
 not(#headlines-frame.wide),
 .hl {
-  height: 32px;
+	height: 32px;
 }
 
 #floatingTitle > *,
@@ -1183,8 +1175,8 @@ not(#headlines-frame.wide),
 	background: rgba(215,206,186,1); /*bg_darker*/
 	cursor: pointer;
 	-moz-box-shadow:    inset 0 0 2px #555555;
-  -webkit-box-shadow: inset 0 0 2px #555555;
-  box-shadow:         inset 0 0 2px #555555;
+	-webkit-box-shadow: inset 0 0 2px #555555;
+	box-shadow:         inset 0 0 2px #555555;
 	transition: background .5s;
 
 }
@@ -1739,7 +1731,7 @@ div.articleNote {
 div.cdmHeader .dijitCheckBox,
 div#floatingTitle .dijitCheckBox,
 div#headlines-frame .dijitCheckBox {
-  width: 0;
+	width: 0;
 }
 
 div.cdmHeader img[src*="images/pub_unset.svg"],        /*TTRSS < v1.9 */
@@ -1747,191 +1739,191 @@ div#headlines-frame img[src*="images/pub_unset.svg"],  /*TTRSS < v1.9 */
 div.cdmHeader img[src*="images/pub_unset.png"],        /*TTRSS > v1.9 */
 div#headlines-frame img[src*="images/pub_unset.png"],  /*TTRSS > v1.9 */
 div#floatingTitle img[src*="images/pub_unset.png"] {   /*TTRSS > v1.9 */
-  width: 0;
+	width: 0;
 }
 div.cdmHeader img[src*="images/pub_set.svg"],          /*TTRSS < v1.9 */
 div#headlines-frame img[src*="images/pub_set.svg"],    /*TTRSS < v1.9 */
 div.cdmHeader img[src*="images/pub_set.png"],          /*TTRSS > v1.9 */
 div#headlines-frame img[src*="images/pub_set.png"],    /*TTRSS > v1.9 */
 div#floatingTitle img[src*="images/pub_set.png"] {     /*TTRSS > v1.9 */
-  width: 0;
+	width: 0;
 }
 div.cdmHeader .hlScorePic,
 div#floatingTitle .hlScorePic,
 div#headlines-frame .hlScorePic {
-  width: 0;
+	width: 0;
 }
 
 div#floatingTitle .anchor.markedPic { /* TTRSS > v1.9 */
-  width: 0;
+	width: 0;
 }
 
 /*************************************************************************************
 * Replace images
 */
 img[src*="images/tag.png"] {
-  background: transparent url(reeder/images/tag.png);
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  display: inline-block;
+	background: transparent url(reeder/images/tag.png);
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	display: inline-block;
 }
 
 img[src*="images/folder.png"] {       /* TTRSS > v1.9 */
-  background: transparent url(reeder/images/list.png);
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  display: inline-block;
+	background: transparent url(reeder/images/list.png);
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	display: inline-block;
 }
 
 img[src*="images/pub_set.svg"],       /* TTRSS < v1.9 */
 img[src*="images/pub_set.png"],       /* TTRSS > v1.9 */
 img[src*="images/feed.png"] {         /* TTRSS > v1.9 */
-  background: transparent url(reeder/images/rss.png) no-repeat;
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  display: inline-block;
+	background: transparent url(reeder/images/rss.png) no-repeat;
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	display: inline-block;
 }
 
 img[src*="images/recently_read.png"], /* TTRSS < v1.9 */
 img[src*="images/time.png"] {         /* TTRSS > v1.9 */
-  background: transparent url(reeder/images/watch.png);
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  display: inline-block;
+	background: transparent url(reeder/images/watch.png);
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	display: inline-block;
 }
 
 img[src*="images/fresh.png"] {
-  background: transparent url(reeder/images/flash.png);
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  display: inline-block;
- }
+	background: transparent url(reeder/images/flash.png);
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	display: inline-block;
+}
 
- img[src*="images/archive.png"] {
-  background: transparent url(reeder/images/lock.png);
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  display: inline-block;
+img[src*="images/archive.png"] {
+	background: transparent url(reeder/images/lock.png);
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	display: inline-block;
 }
 
 img[src*="images/mark_set.svg"],    /* TTRSS < v1.9 */
 img[src*="images/mark_set.png"]{    /* TTRSS > v1.9 */
-  background: transparent url(reeder/images/star_full.png);
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  margin-top: -5px;
-  display: inline-block;
+	background: transparent url(reeder/images/star_full.png);
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	margin-top: -5px;
+	display: inline-block;
 }
 
 img[src*="images/star.png"] {       /* TTRSS > v1.9 */
 background: transparent url(reeder/images/star_full.png);
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  display: inline-block;
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	display: inline-block;
 }
 
 img[src*="images/mark_unset.svg"],  /* TTRSS < v1.9 */
 img[src*="images/mark_unset.png"] { /* TTRSS > v1.9 */
-  background: transparent url(reeder/images/star.png) no-repeat;
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  margin-top: -5px;
-  display: inline-block;
+	background: transparent url(reeder/images/star.png) no-repeat;
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	margin-top: -5px;
+	display: inline-block;
 }
 
 img[src*="images/indicator_white.gif"] {
-  background: transparent url(reeder/images/loader-bars.gif) 50% 100% no-repeat;
-  height: 16px;
-  position: relative;
-  left: -9px;
-  padding-right: 16px;
-  width: 0;
-  display: inline-block;
+	background: transparent url(reeder/images/loader-bars.gif) 50% 100% no-repeat;
+	height: 16px;
+	position: relative;
+	left: -9px;
+	padding-right: 16px;
+	width: 0;
+	display: inline-block;
 }
 img[src*="images/indicator_tiny.gif"] {
-  background: transparent url(reeder/images/loader-bars.gif) 50% 100% no-repeat;
-  height: 11px;
-  padding-right: 16px;
-  width: 0;
-  display: inline-block;
+	background: transparent url(reeder/images/loader-bars.gif) 50% 100% no-repeat;
+	height: 11px;
+	padding-right: 16px;
+	width: 0;
+	display: inline-block;
 }
 
 /* Replace plugin images */
 img[src*="plugins/mail/mail.png"] {
-  background: transparent url(reeder/images/mail.png) no-repeat;
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  display: inline-block;
+	background: transparent url(reeder/images/mail.png) no-repeat;
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	display: inline-block;
 }
 
 img[src*="plugins/mobilize/but.png"] {
-  background: transparent url(reeder/images/mobilize.png);
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  display: inline-block;
+	background: transparent url(reeder/images/mobilize.png);
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	display: inline-block;
 }
 
 img[src*="plugins/note/note.png"] {
-  background: transparent url(reeder/images/note.png) 50%;
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  display: inline-block;
+	background: transparent url(reeder/images/note.png) 50%;
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	display: inline-block;
 }
 
 img[src*="plugins/share/share.png"] {
-  background: transparent url(reeder/images/share.png) no-repeat;
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  display: inline-block;
+	background: transparent url(reeder/images/share.png) no-repeat;
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	display: inline-block;
 }
 
 img[src*="plugins/share/notshared.png"] {   /* TTRSS >v1.9 */
-  background: transparent url(reeder/images/notshared.png) no-repeat;
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  display: inline-block;
+	background: transparent url(reeder/images/notshared.png) no-repeat;
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	display: inline-block;
 }
 
 
 img[src*="plugins/embed_original/button.png"] {
- background: transparent url(reeder/images/embed.png) no-repeat;
- height: 24px;
- padding-right: 24px;
- width: 0;
- display: inline-block;
+	background: transparent url(reeder/images/embed.png) no-repeat;
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	display: inline-block;
 }
 
 img[src*="plugins/inline_readability/readability.png"],
 img[src*="plugins/readability/readability.png"],
 img[src*="plugins/readability_mobile/readability_mobile.png"]
 {
-  background: transparent url(reeder/images/readability.png) no-repeat;
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  display: inline-block;
+	background: transparent url(reeder/images/readability.png) no-repeat;
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	display: inline-block;
 }
 
 img[src*="plugins/evernote/evernote.png"] {
-  background: transparent url(reeder/images/evernote.png) no-repeat;
-  height: 24px;
-  padding-right: 24px;
-  width: 0;
-  display: inline-block;
+	background: transparent url(reeder/images/evernote.png) no-repeat;
+	height: 24px;
+	padding-right: 24px;
+	width: 0;
+	display: inline-block;
 }
 
 img[src*="plugins/facebook/facebook.gif"] {
@@ -1939,7 +1931,7 @@ img[src*="plugins/facebook/facebook.gif"] {
 	height: 24px;
 	padding-right: 24px;
 	width: 0;
-  display: inline-block;
+	display: inline-block;
 }
 
 img[src*="plugins/googleplus/googleplus.png"] {
@@ -1947,7 +1939,7 @@ img[src*="plugins/googleplus/googleplus.png"] {
 	height: 24px;
 	padding-right: 24px;
 	width: 0;
-  display: inline-block;
+	display: inline-block;
 }
 
 img[src*="plugins/tweet/tweet.png"] {
@@ -1955,62 +1947,62 @@ img[src*="plugins/tweet/tweet.png"] {
 	height: 24px;
 	padding-right: 24px;
 	width: 0;
-  display: inline-block;
+	display: inline-block;
 }
 
 /* article_toolbar modification */
 img[src*="plugins/article_toolbar_small/images/feed.png"],
 img[src*="plugins/article_toolbar/images/feed.png"] {
-  background-image: url(reeder/images/rss.png);
-  height: 24px;
+	background-image: url(reeder/images/rss.png);
+	height: 24px;
 	padding-right: 24px;
 	width: 0;
-  display: inline-block;
+	display: inline-block;
 }
 
 img[src*="plugins/article_toolbar_small/images/list.png"],
 img[src*="plugins/article_toolbar/images/list.png"] {
-  background-image: url(reeder/images/list.png);
-  height: 24px;
+	background-image: url(reeder/images/list.png);
+	height: 24px;
 	padding-right: 24px;
 	width: 0;
-  display: inline-block;
+	display: inline-block;
 }
 
 img[src*="plugins/article_toolbar_small/images/read.png"],
 img[src*="plugins/article_toolbar/images/read.png"] {
-  background-image: url(reeder/images/read.png);
-  height: 24px;
+	background-image: url(reeder/images/read.png);
+	height: 24px;
 	padding-right: 24px;
 	width: 0;
-  display: inline-block;
+	display: inline-block;
 }
 
 img[src*="plugins/article_toolbar_small/images/refresh.png"],
 img[src*="plugins/article_toolbar/images/refresh.png"] {
-  background-image: url(reeder/images/refresh.png);
-  height: 24px;
+	background-image: url(reeder/images/refresh.png);
+	height: 24px;
 	padding-right: 24px;
 	width: 0;
-  display: inline-block;
+	display: inline-block;
 }
 
 img[src*="plugins/article_toolbar_small/images/up.png"],
 img[src*="plugins/article_toolbar/images/up.png"] {
-  background-image: url(reeder/images/up.png);
-  height: 24px;
+	background-image: url(reeder/images/up.png);
+	height: 24px;
 	padding-right: 24px;
 	width: 0;
-  display: inline-block;
+	display: inline-block;
 }
 
 img[src*="plugins/article_toolbar_small/images/down.png"],
 img[src*="plugins/article_toolbar/images/down.png"] {
-  background-image: url(reeder/images/down.png);
-  height: 24px;
+	background-image: url(reeder/images/down.png);
+	height: 24px;
 	padding-right: 24px;
 	width: 0;
-  display: inline-block;
+	display: inline-block;
 }
 
 #cancel_search {
@@ -2018,7 +2010,7 @@ img[src*="plugins/article_toolbar/images/down.png"] {
 	margin-left: 12px;
 }
 /* standard button styling applied to various elements */
-#ttrssPrefs #header a,
+.ttrss_prefs #header a,
 #cancel_search a,
 .cdmContentInner .expandPrompt {
 	-moz-box-sizing: border-box;
@@ -2037,7 +2029,7 @@ img[src*="plugins/article_toolbar/images/down.png"] {
 	transition: all .2s;
 }
 
-#ttrssPrefs #header a:hover,
+.ttrss_prefs #header a:hover,
 #cancel_search a:hover,
 .cdmContentInner .expandPrompt:hover {
 	border-color: #d4d4d4;
@@ -2045,7 +2037,7 @@ img[src*="plugins/article_toolbar/images/down.png"] {
 	color: #222;
 }
 
-#ttrssPrefs #header a:hover:active,
+.ttrss_prefs #header a:hover:active,
 #cancel_search a:hover:active,
 .cdmContentInner .expandPrompt:hover:active {
 	background: #ddd;
@@ -2161,19 +2153,19 @@ table.prefErrorLog td.filename, table.prefErrorLog td.login, table.prefErrorLog 
 }
 
 /* layout */
-#ttrssPrefs #header {
+.ttrss_prefs #header {
 	position: absolute;
 	top: 7px;
 	right: 2px;
 	z-index: 1;
 }
-#ttrssPrefs #pref-tabs {
+.ttrss_prefs #pref-tabs {
 	padding: 5px 10px 0;
 }
-#ttrssPrefs #pref-tabs_tablist {
+.ttrss_prefs #pref-tabs_tablist {
 	padding-right: 150px;
 }
-#ttrssPrefs #pref-tabs_tablist:after {
+.ttrss_prefs #pref-tabs_tablist:after {
 	position: absolute;
 	right: 0;
 	bottom: 0;
@@ -2181,7 +2173,7 @@ table.prefErrorLog td.filename, table.prefErrorLog td.login, table.prefErrorLog 
 	border-top: 1px solid #d8d8d8;
 	content: "";
 }
-#ttrssPrefs #footer {
+.ttrss_prefs #footer {
 	padding: 0 10px 5px;
 	background: #eee;
 	text-align: center;
@@ -2192,34 +2184,34 @@ table.prefErrorLog td.filename, table.prefErrorLog td.login, table.prefErrorLog 
 }
 
 /* content */
-#ttrssPrefs h1,
-#ttrssPrefs h2,
-#ttrssPrefs h3,
-#ttrssPrefs h4,
-#ttrssPrefs h5,
-#ttrssPrefs h6 {
+.ttrss_prefs h1,
+.ttrss_prefs h2,
+.ttrss_prefs h3,
+.ttrss_prefs h4,
+.ttrss_prefs h5,
+.ttrss_prefs h6 {
 	margin-top: 12px;
 	margin-bottom: 3px;
 }
-#ttrssPrefs hr {
+.ttrss_prefs hr {
 	border: none;
 	border-top: 1px solid #ddd;
 }
-#ttrssPrefs .feedParam,
-#ttrssPrefs .labelParam,
-#ttrssPrefs .prefHelp {
+.ttrss_prefs .feedParam,
+.ttrss_prefs .labelParam,
+.ttrss_prefs .prefHelp {
 	color: #909090;
 	font-size: 11px;
 }
-#ttrssPrefs .feedParam,
-#ttrssPrefs .labelParam {
+.ttrss_prefs .feedParam,
+.ttrss_prefs .labelParam {
 	float: right;
 	margin-right: 1em;
 }
-#ttrssPrefs .labelParam.disabled {
+.ttrss_prefs .labelParam.disabled {
 	color: #aaa;
 }
-#ttrssPrefs a.bookmarklet {
+.ttrss_prefs a.bookmarklet {
 	position: relative;
 	display: inline-block;
 	margin: 10px 50px 25px;
@@ -2233,7 +2225,7 @@ table.prefErrorLog td.filename, table.prefErrorLog td.login, table.prefErrorLog 
 	cursor: move;
 	-webkit-user-drag: element;
 }
-#ttrssPrefs a.bookmarklet:after {
+.ttrss_prefs a.bookmarklet:after {
 	position: absolute;
 	top: -1px;
 	right: -1px;
@@ -2247,49 +2239,52 @@ table.prefErrorLog td.filename, table.prefErrorLog td.login, table.prefErrorLog 
 * Loader
 */
 #overlay {
-  background: #e9e6d7;
-  background-image: url(reeder/images/tt-rss_logo_grey.png), url(reeder/images/linen_bg.jpg);
-  background-repeat: no-repeat, repeat;
-  background-position: center 5%;
-  color: #4f4e48;
+	background: #e9e6d7;
+	background-image: url(reeder/images/tt-rss_logo_grey.png), url(reeder/images/linen_bg.jpg);
+	background-repeat: no-repeat, repeat;
+	background-position: center 5%;
+	color: #4f4e48;
 }
 div.insensitive{
-  color: #4f4e48;
+	color: #4f4e48;
 }
 #overlay_inner {
-  font-size: 16px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -220px;
-  text-align: center;
-  background-color: rgba(215,206,186,1); /*bg_darker*/
-  background-image: url(reeder/images/reeder_stripes.png);
-  -moz-box-shadow:    0px 0px 30px 0px #000000;
-  -webkit-box-shadow: 0px 0px 30px 0px #000000;
-  box-shadow:         0px 0px 30px 0px #000000;
-  border : 1px solid #bebcb0;
-  border-radius: 10px;
-  padding: 20px;
-  width: 400px;
+	font-size: 16px;
+	position: absolute;
+	top: 50vh;
+	left: 50vw;
+	text-align: center;
+	background-color: rgba(215,206,186,1); /*bg_darker*/
+	background-image: url(reeder/images/reeder_stripes.png);
+	-moz-box-shadow:    0px 0px 30px 0px #000000;
+	-webkit-box-shadow: 0px 0px 30px 0px #000000;
+	box-shadow:         0px 0px 30px 0px #000000;
+	border : 1px solid #bebcb0;
+	border-radius: 10px;
+	padding: 20px;
+	width: 400px;
+	max-width: calc(100vw - 50px);
+	transform: translate(-50%,-50%);
 }
 #overlay_inner .dijitProgressBar {
-  display: inline-block;
-  margin-top: 20px;
-  background-color: #d2d0c4;
-  border-radius: 3px;
+	display: inline-block;
+	margin-top: 20px;
+	background-color: #d2d0c4;
+	border-radius: 3px;
+	width: 300px;
+	max-width: calc(70vw - 50px);
 }
 #overlay_inner .dijitProgressBarEmpty {
-  border: 0;
+	border: 0;
 }
 #overlay_inner .dijitProgressBarTile {
-  border-radius: 3px;
-  background-color: #bebcb0;
+	border-radius: 3px;
+	background-color: #bebcb0;
 }
 #overlay_inner .dijitProgressBarFull {
-  border : 0;
+	border : 0;
 }
 #overlay_inner .dijitProgressBarLabel {
-  color: #4f4e48;
-  border-radius: 3px;
+	color: #4f4e48;
+	border-radius: 3px;
 }
